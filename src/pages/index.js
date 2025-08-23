@@ -68,9 +68,9 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
           </div>
         </div>
         <div className="relative text-center p-[24px]">
-          <GradientText tag="h1" className="text-[42px] sm:text-[64px] md:text-[80px] leading-tight">Decentralize Publishing</GradientText>
+          <GradientText tag="h1" className="text-[42px] sm:text-[64px] md:text-[80px] leading-tight">Berani ambil langkah pertamamu</GradientText>
           <h2 className="text-[32px] font-bold font-display mt-[24px]">
-            Own your content forever.
+            Jepang bisa jadi awal perjalanan hidupmu
           </h2>
         </div>
       </section>

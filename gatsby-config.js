@@ -3,12 +3,14 @@ module.exports = {
     siteUrl: "https://about.like.co",
     title: "LikeCoin",
     titleTemplate: "%s | LikeCoin",
-    description:
-      "Decentralize Publishing. Own your content forever.",
+    description: "Kerja di jepang",
     image: "/og.png",
     twitterUsername: "@likecoin",
-    themeColor: '#28646e',
+    themeColor: "#28646e",
     blogUrl: "https://blog.like.co",
+  },
+  flags: {
+    DEV_SSR: false,
   },
   plugins: [
     {

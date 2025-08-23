@@ -1,4 +1,11 @@
-export const LIKECOIN_DESCRIPTION = 'LikeCoin is an application-specific blockchain on decentralized publishing built on Cosmos SDK. LikeCoin provides open source products ranging from infrastructure to publishing tools for creators on board to Web3.'
+export const LIKECOIN_DESCRIPTION = 'VISI'
+'Menjadi penyelenggara pendidikan bahasa Jepang unggulan skla internasional yang berkontribusi pada pengembangan SDM dan penyebaran dakwah islam'
+'MISI'
+'1.	Menggali Potensi bahasa Jepang dan skil unik siswa.' 
+'2.	Membimbing siswa di dalam maupun di luar kelas terkait pembelajaran bahasa Jepang dan kehidupan di Jepang.'
+'3.	Mencetak resource yang mampu berdakwah di Jepang.'
+'4.	Mencetak resource yang mampu bersaing di era global'
+
 export const ISCN_DESCRIPTION = 'For the future of decentralized publishing to work, it is essential to have a global, decentralized, and resilient digital content registry as the cornerstone. International Standard Content Number, abbreviated as <b class="text-like-cyan">ISCN</b>, is a metadata framework for digital content on the LikeCoin chain. ISCN is like a <b class="text-like-cyan">digital content ID</b>; helps to identify a specific digital content, records the content metadata, the intellectual property rights, and the stakeholders of the creation. ISCN also represents the <b class="text-like-cyan">property right layer</b> of LikeCoin NFT, it records the relationships between the content and creator.'
 export const IPFS_DESCRIPTION = 'LikeCoin provides permanent storage for LikeCoin network users, perma-pin IPFS files with Arweave, and records their storage location in the ISCN content metadata. Users can query and parse content metadata from LikeCoin chain.'
 export const NFT_MODULE_DESCRIPTION = 'LikeCoin utilizes Cosmos SDK’s x/nft standard enables users to create NFT classes and mint NFTs under an ISCN metadata record. LikeCoin envisions a future where digital content is transformed from web-native to NFT native format. All content will be natively created on the blockchain and stored separately in the property right and NFT layers.'
