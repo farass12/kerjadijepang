@@ -5,10 +5,10 @@ export const ISCN_DESCRIPTION = 'BANYAK USIA LANJUT : Usia lanjut di jepang lebi
 export const IPFS_DESCRIPTION = 'KURANG 1 JUTA TK : Laporan media reuters pada juli 2024, jepang menghadapi kekuranga hampir satu juta pekerja asing pada 2040'
 export const NFT_MODULE_DESCRIPTION = 'JUMLAH TK ASING TERUS MENINGKAT : Jumlah pekerja asing di jepang meningkat lebih dari empat kali lipat dalam 15 tahun terakhir menjadi 2,05 juta, atau sekitar 3% dari seluruh tenaga kerja, per Oktober 2023'
 export const TOKEN_DESCRIPTION = 'MEMBUTUHKAN TENAGA KERJA : Jepang mengharapkan bantuan manpower atau tenaga kerja dari berbagai negara, salahsatunya dari indonesia.'
-export const WORDPRESS_PLUGIN_DESCRIPTION = ''
-export const JEPANG_APP = ''
-export const KERJA_JEPANG = ''
-export const KERJA_INFORMATIK = ''
+// export const WORDPRESS_PLUGIN_DESCRIPTION = ''
+// export const JEPANG_APP = ''
+// export const KERJA_JEPANG = ''
+// export const KERJA_INFORMATIK = ''
 
 // Array supaya gampang looping
 export const DESCRIPTIONS = [
@@ -19,8 +19,8 @@ export const DESCRIPTIONS = [
   { title: "KURANG 1 JUTA TK", text: IPFS_DESCRIPTION },
   { title: "JUMLAH TK ASING TERUS MENINGKAT", text: NFT_MODULE_DESCRIPTION },
   { title: "MEMBUTUHKAN TENAGA KERJA", text: TOKEN_DESCRIPTION },
-  { title: "WordPress Plugin", text: WORDPRESS_PLUGIN_DESCRIPTION },
-  { title: "KERJA RODI", text: JEPANG_APP },
-  { title: "JEPANG KERJA", text: KERJA_JEPANG },
-  { title: "INFORMATIK", text: KERJA_INFORMATIK },
-];
+//   { title: "WordPress Plugin", text: WORDPRESS_PLUGIN_DESCRIPTION },
+//   { title: "KERJA RODI", text: JEPANG_APP },
+//   { title: "JEPANG KERJA", text: KERJA_JEPANG },
+//   { title: "INFORMATIK", text: KERJA_INFORMATIK },
+ ];

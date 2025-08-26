@@ -315,14 +315,14 @@ export default function HeaderWithData(props) {
         }
       `}
       render={data => {
-        const { headerMenuItems: { code: headerMenuItemsCode } } = data.menu.frontmatter.en
-        const headerMenuItems = JSON.parse(headerMenuItemsCode) 
-        return (
-          <Header
-            items={headerMenuItems}
-            {...props}
-          />
-        )
+        // const { headerMenuItems: { code: headerMenuItemsCode } } = data.menu.frontmatter.en
+        // const headerMenuItems = JSON.parse(headerMenuItemsCode) 
+        // return (
+        //   <Header
+        //     items={headerMenuItems}
+        //     {...props}
+        //   />
+        // )
       }}
     />
   )

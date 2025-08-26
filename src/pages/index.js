@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
 
-import HeroVideoMp4 from "../videos/sakura.mp4"
+import HeroVideoMp4 from "../videos/hero.mp4"
 import HeroVideoWebm from "../videos/hero.webm"
 import HeroImage from "../images/hero.png"
 import ScrollDownHintImage from "../images/scroll-down-hint.png"
@@ -74,9 +74,9 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
           </div>
         </div>
         <div className="relative text-center p-[24px]">
-          <GradientText tag="h1" className="text-[42px] sm:text-[64px] md:text-[80px] leading-tight">Berani ambil langkah pertamamu</GradientText>
+          <GradientText tag="h1" className="text-[42px] sm:text-[64px] md:text-[80px] leading-tight"></GradientText>
           <h2 className="text-[32px] font-bold font-display mt-[24px]">
-            Jepang bisa jadi awal perjalanan hidupmu
+            
           </h2>
         </div>
       </section>
@@ -178,46 +178,30 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
       </section>
 
       {/* Writing NFT Section */}
-      <section className="mt-[96px]">
-        <GradientText tag="h2" className="px-[24px] text-[48px] text-center md:text-left">BEKERJA DI JEPANG DENGAN PROFESI YANG SESUI DENGAN KEAHLIAN ANDA</GradientText>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-[48px] mt-[48px]">
-          <ul className="grid gap-y-[48px] p-[24px]">
-            {/* <li>
-              <ParagraphSection title="Widget" href="https://docs.like.co/general-guides/writing-nft/collect-writing-nft/nft-widget">
-              {WIDGET_DESCRIPTION}
-              </ParagraphSection>
-            </li>
-            <li>
-              <ParagraphSection title="Publish" href="https://app.like.co/">
-              {PORTAL_DESCRIPTION}
-              </ParagraphSection>
-            </li> */}
-            <li>
-              <ParagraphSection title="Bidang Perhotelan" href="https://w3press.io/">
-              {WORDPRESS_PLUGIN_DESCRIPTION}
-              </ParagraphSection>
-            </li>
-                        <li>
-              <ParagraphSection title= "Bidang Pertanian" href="https://w3press.io/">
-              {JEPANG_APP}
-              </ParagraphSection>
-            </li>
-             <li>
-              <ParagraphSection title="Bidang Konstruksi" href="https://w3press.io/">
-              {KERJA_JEPANG}
-              </ParagraphSection>
-            </li>
-            <li>
-              <ParagraphSection title="Bidang Information Technology" href="https://w3press.io/">
-              {KERJA_INFORMATIK}
-              </ParagraphSection>
-            </li>
-          </ul>
-          <div className="sm:p-[24px] lg:mt-[64px]">
-            <NFTWidgetSlideshow items={writingNFTItems} />
-          </div>
-        </div>
-      </section>
+<section className="mt-[96px] px-[24px]">
+  <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-[32px]">
+
+    {/* GRID KIRI - TEXT */}
+    <div className="flex items-center">
+      <GradientText 
+        tag="h2" 
+        className="text-[32px] md:text-[48px] text-left leading-tight"
+      >
+        BEKERJA DI JEPANG DENGAN PROFESI YANG SESUAI DENGAN KEAHLIAN ANDA
+      </GradientText>
+    </div>
+
+    {/* GRID KANAN - SLIDESHOW */}
+    <div className="flex justify-center lg:justify-end min-h-[400px]">
+      <div className="w-full max-w-md">
+        <NFTWidgetSlideshow items={writingNFTItems} />
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
 
       <section className="flex flex-col items-center mt-[100px] p-[24px]">
         <GradientText tag="h2" className="text-[48px] text-center md:text-left">

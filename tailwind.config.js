@@ -9,16 +9,17 @@ module.exports = {
       black: '#000',
       white: '#9a8989ff',
       red: '#E35050',
-      'like-green': '#28646E',
+      'like-green': '#6e0000ff',
       'like-cyan': '#50E3C2',
-      'like-cyan-light': '#AAF1E7',
+      'like-cyan-light': '#ffffffff',
       'like-cyan-vlight': '#ffffffff',
       'dark-gray': '#ffffffff',
       'medium-gray': '#cac7c7ff',
       'shade-gray': '#d25d5dff',
-      'light-gray': '#8b6b6bff',
+      'light-gray': '#8b6b6ff',
       'airdrop-gold':'#D1AB79',
-      'like-red': '#6e0000ff',
+      'like-red-gradient': 'linear-gradient(to bottom, #5e0000ff 0%, #5e0000ff 100%)',
+
     },
     fontFamily: {
       'display': 'proxima-nova, sans-serif',
@@ -30,6 +31,16 @@ module.exports = {
           '0%, 100%': { opacity: '1' },
           '25%, 75%': { opacity: '0' },
         },
+      },
+      backgroundImage: {
+        // ✅ versi soft (biar video keliatan jelas)
+        'like-red-soft': 'linear-gradient(to bottom, #6e000040 0%, #6e000020 50%, #00000060 100%)',
+
+        // ✅ versi medium (agak gelap di bawah buat teks tetap kontras)
+        'like-red-medium': 'linear-gradient(to bottom, #6e000060 0%, #6e000030 50%, #000000aa 100%)',
+
+        // versi sebelumnya yang pekat (kalau butuh kontras banget)
+        'like-red-strong': 'linear-gradient(to bottom, #6e0000ff 0%, #8b0000cc 50%, #000000ff 100%)',
       },
     },
   },
