@@ -19,7 +19,7 @@ const paragraphStyles = {
 const codeStyles = {
   color: "#8A6534",
   padding: 4,
-  backgroundColor: "#FFF4DB",
+  backgroundColor: "#cb0634ff",
   fontSize: "1.25rem",
   borderRadius: 4,
 }
