@@ -5,6 +5,8 @@ import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 import {
   LIKECOIN_DESCRIPTION,
+  TENAGA_KERJA,
+  KURANG_TENAGA,
   ISCN_DESCRIPTION,
   IPFS_DESCRIPTION,
   NFT_MODULE_DESCRIPTION,
@@ -12,6 +14,9 @@ import {
   WIDGET_DESCRIPTION,
   PORTAL_DESCRIPTION,
   WORDPRESS_PLUGIN_DESCRIPTION,
+  JEPANG_APP,
+  KERJA_JEPANG,
+  KERJA_INFORMATIK
 } from "../text";
 
 const SEO = ({ title, description, image, isArticle }) => {
@@ -65,6 +70,22 @@ const SEO = ({ title, description, image, isArticle }) => {
       acceptedAnswer: {
         '@type': 'Answer',
         text: LIKECOIN_DESCRIPTION,
+      }
+    },
+      {
+      '@type': 'Question',
+      name: 'What is ISCN metadata registry?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: TENAGA_KERJA,
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'What is ISCN metadata registry?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: ISCN_DESCRIPTION,
       }
     },
     {
@@ -122,6 +143,32 @@ const SEO = ({ title, description, image, isArticle }) => {
         '@type': 'Answer',
         text: WORDPRESS_PLUGIN_DESCRIPTION,
       }
+    },   
+     {
+      '@type': 'Question',
+      name: 'What is Writing NFT WordPress plugin?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: JEPANG_APP,
+      },
+
+    },
+    {
+      '@type': 'Question',
+      name: 'What is Writing NFT WordPress plugin?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: KERJA_JEPANG,
+      },
+    },
+   {
+      '@type': 'Question',
+      name: 'What is Writing NFT WordPress plugin?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: KERJA_INFORMATIK,
+      },
+      
     }]
   }
   return (

@@ -9,32 +9,32 @@ en:
           "items": [
             {
               "image": "/uploads/apps/liker-land.svg",
-              "title": "Liker Land - decentralized bookstore",
+              "title": "Lingkungan Kerja Memadai",
               "url": "https://liker.land",
               "isOfficial": true,
-              "description": "The home of NFT Book. Explore the <a href=\"https:\/\/app.like.co/nft\" target=\"_blank\">NFT Portal</a> and widget features, allowing readers to collect writing as NFT on any website. Manage your NFT Books portfolio and browse others’ collections."
+              "description": "Pekerja Tokutei Shoku & Tokutei Ginou ditempatkan sesuai skill keahlian kerjanya sama dengan pekerja lokal."
             },
             {
               "image": "/uploads/plugins/w3p.png",
-              "title": "Web3Press",
+              "title": "Gaji Relatif Lebih Tinggi",
               "buttonTitle": "Visit",
               "isOfficial": true,
               "url": "http://w3press.io",
-              "description": "WordPress plugin that bridges WordPress users to web3. Register content metadata with ISCN. Store and publish Writing NFT to the decentralized network."
+              "description": "Standar gaji Jepang relatif lebih tinggi dibandingkan rata-rata gaji pekerja Indonesia. Rata-rata gaji pekerja Indonesia di Jepang berkisar antara 15 hingga 25 juta per bulan untuk entry level."
             },
             {
               "image": "/uploads/apps/liker-social.svg",
-              "title": "Liker.Social",
+              "title": "Mengasah Skill Bahasa Jepang",
               "url": "https://liker.social",
               "isOfficial": false,
-              "description": "Decentralized microblogs on LikeCoin & Mastodon. Supports likes for rewards, help creators connect with their own communities."
+              "description": "   Tinggal dan beraktivitas dengan orang lokal bahasa Jepang mendorong kita terbiasa menggunakan bahasa Jepang, meningkatkan keterampilan bekerja sekaligus untuk mengasah kemampuan bahasa Jepang."
             },
             {
               "image": "/uploads/apps/matters.svg",
-              "title": "Matters",
+              "title": "Tingkat Keamanan",
               "url": "https://matters.news",
               "isOfficial": false,
-              "description": "Decentralized content publishing platform. Direct publish articles to IPFS and utilize the LikeCoin reward mechanism to reward creativity in LIKE."
+              "description": "Salah satu aspek terpenting memilih Jepang sebagai negara bekerja adalah tingkat keamanannya yang tinggi. Kriminalitas di Jepang relatif rendah sehingga aman."
             },
             {
               "image": "/uploads/apps/illustbuy.jpg",

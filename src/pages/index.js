@@ -1,12 +1,14 @@
 import * as React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
 
-import HeroVideoMp4 from "../videos/hero.mp4"
+import HeroVideoMp4 from "../videos/sakura.mp4"
 import HeroVideoWebm from "../videos/hero.webm"
 import HeroImage from "../images/hero.png"
 import ScrollDownHintImage from "../images/scroll-down-hint.png"
 import {
   LIKECOIN_DESCRIPTION,
+  TENAGA_KERJA,
+  KURANG_TENAGA,
   ISCN_DESCRIPTION,
   IPFS_DESCRIPTION,
   NFT_MODULE_DESCRIPTION,
@@ -14,6 +16,10 @@ import {
   WIDGET_DESCRIPTION,
   PORTAL_DESCRIPTION,
   WORDPRESS_PLUGIN_DESCRIPTION,
+  JEPANG_APP,
+  KERJA_JEPANG,
+  KERJA_INFORMATIK,
+  
 } from "../text";
 
 import AppGridList from "../components/AppGridList"
@@ -86,43 +92,43 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
         >Explore NFT Book</Button>
         <nav className="flex justify-center mt-[24px]">
           <ul className="grid grid-cols-2 sm:flex flex-wrap gap-x-[8px] gap-y-[16px]">
-            <li>
+            {/* <li>
               <Button
                 preset="outlined"
                 href="https://app.like.co"
                 target="_blank"
                 rel="noopener"
               >Register ISCN</Button>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Button
                 preset="outlined"
                 href="https://docs.like.co/"
                 target="_blank"
                 rel="noopener"
               >Docs</Button>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Button
                 preset="outlined"
                 href={blogUrl}
                 target="_blank"
                 rel="noopener"
               >Blog</Button>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Button
                 preset="outlined"
                 href="https://docs.like.co/faq"
                 target="_blank"
                 rel="noopener"
               >FAQ</Button>
-            </li>
+            </li> */}
           </ul>
         </nav>
-        <p className="text-[16px] mt-[24px]">
+        {/* <p className="text-[16px] mt-[24px]">
           Questions? Ask the <a className="underline" href="http://discord.gg/likecoin">community</a>.
-        </p>
+        </p> */}
       </section>
 
       {/* Statistic Section */}
@@ -134,26 +140,36 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
           <KeyVisualImage className="absolute right-0 max-w-[750px] mr-[-120px] opacity-60 md:mr-0 md:opacity-100" />
         </div>
         <div className="relative flex flex-col justify-center flex-grow md:max-w-[66%] p-[24px]">
-          <GradientText tag="h2" className="text-[48px] text-center md:text-left">LikeCoin chain</GradientText>
+          <GradientText tag="h2" className="text-[48px] text-center md:text-left">JEPANG KRISIS TENAGA KERJA</GradientText>
           <p className="mt-[24px] text-like-cyan-vlight text-[20px]">{LIKECOIN_DESCRIPTION}</p>
           <ul className="grid md:grid-cols-2	gap-x-[32px] gap-y-[48px] mt-[48px]">
             <li>
-              <ParagraphSection title="Metadata Registry">
+              <ParagraphSection title="BANYAK USIA LANJUT">
               {ISCN_DESCRIPTION}
               </ParagraphSection>
             </li>
             <li>
-              <ParagraphSection title="Integrated with Arweave & IPFS" href="https://docs.like.co/developer/iscn/web-widget/iscn-ar">
+              <ParagraphSection title="Pekerja asing sangat penting">
+              {TENAGA_KERJA}
+              </ParagraphSection>
+            </li>
+            <li>
+              <ParagraphSection title="Kurang 3,8 Juta di 2035">
+              {KURANG_TENAGA}
+              </ParagraphSection>
+            </li>
+            <li>
+              <ParagraphSection title="KURANG 1 JUTA TK " href="">
               {IPFS_DESCRIPTION}
               </ParagraphSection>
             </li>
             <li>
-              <ParagraphSection title="NFT Module" href="https://docs.like.co/developer/likenft/likecoin-nft-module-spec">
+              <ParagraphSection title="JUMLAH TK ASING TERUS MENINGKAT " href="">
               {NFT_MODULE_DESCRIPTION}
               </ParagraphSection>
             </li>
             <li>
-              <ParagraphSection title="LIKE Token" href="https://coinmarketcap.com/currencies/likecoin/">
+              <ParagraphSection title="MEMBUTUHKAN TENAGA KERJA" href="">
               {TOKEN_DESCRIPTION}
               </ParagraphSection>
             </li>
@@ -163,10 +179,10 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
 
       {/* Writing NFT Section */}
       <section className="mt-[96px]">
-        <GradientText tag="h2" className="px-[24px] text-[48px] text-center md:text-left">Writing NFT - The POAP for content</GradientText>
+        <GradientText tag="h2" className="px-[24px] text-[48px] text-center md:text-left">BEKERJA DI JEPANG DENGAN PROFESI YANG SESUI DENGAN KEAHLIAN ANDA</GradientText>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-[48px] mt-[48px]">
           <ul className="grid gap-y-[48px] p-[24px]">
-            <li>
+            {/* <li>
               <ParagraphSection title="Widget" href="https://docs.like.co/general-guides/writing-nft/collect-writing-nft/nft-widget">
               {WIDGET_DESCRIPTION}
               </ParagraphSection>
@@ -175,10 +191,25 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
               <ParagraphSection title="Publish" href="https://app.like.co/">
               {PORTAL_DESCRIPTION}
               </ParagraphSection>
+            </li> */}
+            <li>
+              <ParagraphSection title="Bidang Perhotelan" href="https://w3press.io/">
+              {WORDPRESS_PLUGIN_DESCRIPTION}
+              </ParagraphSection>
+            </li>
+                        <li>
+              <ParagraphSection title= "Bidang Pertanian" href="https://w3press.io/">
+              {JEPANG_APP}
+              </ParagraphSection>
+            </li>
+             <li>
+              <ParagraphSection title="Bidang Konstruksi" href="https://w3press.io/">
+              {KERJA_JEPANG}
+              </ParagraphSection>
             </li>
             <li>
-              <ParagraphSection title="WordPress Plugin" href="https://w3press.io/">
-              {WORDPRESS_PLUGIN_DESCRIPTION}
+              <ParagraphSection title="Bidang Information Technology" href="https://w3press.io/">
+              {KERJA_INFORMATIK}
               </ParagraphSection>
             </li>
           </ul>
@@ -190,7 +221,7 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
 
       <section className="flex flex-col items-center mt-[100px] p-[24px]">
         <GradientText tag="h2" className="text-[48px] text-center md:text-left">
-          Discover dapps
+          MANFAAT KERJA DI JEPANG
         </GradientText>
         <AppGridList className="mt-[32px]">
           {apps.map((data) => (

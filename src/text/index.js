@@ -1,17 +1,26 @@
-export const LIKECOIN_DESCRIPTION = {
-  visi: "Menjadi penyelenggara pendidikan bahasa Jepang unggulan skala internasional yang berkontribusi pada pengembangan SDM dan penyebaran dakwah islam",
-  misi: [
-    "Menggali potensi bahasa Jepang dan skil unik siswa.",
-    "Membimbing siswa di dalam maupun di luar kelas terkait pembelajaran bahasa Jepang dan kehidupan di Jepang.",
-    "Mencetak resource yang mampu berdakwah di Jepang.",
-    "Mencetak resource yang mampu bersaing di era global."
-  ]
-}
+export const LIKECOIN_DESCRIPTION = 'Jepang membutuhkan tenaga kerja asing termasuk indonesia, untuk mengejar pertumbuhan ekonomi mereka'
+export const TENAGA_KERJA = 'Pekerja asing dianggap sangat penting bagi ekonomi Jepang karena mereka membantu mengisi kekurangan tenaga kerja yang kian parah dengan angka kelahiran yang turun drastis.'
+export const KURANG_TENAGA = '  Menurut media lokal Jepang (JiJi pers) Jepang diproyeksikan akan menghadapi kekurangan tenaga kerja yang setara dengan 3,84 juta pekerja pada tahun 2035, yang berarti 17,75 juta jam kerja yang tidak terisi setiap hari, media lokal melaporkan.'
+export const ISCN_DESCRIPTION = 'BANYAK USIA LANJUT : Usia lanjut di jepang lebih banyak dari pada usia muda, yang artinya pekerja usia muda sangat sedikit sekali'
+export const IPFS_DESCRIPTION = 'KURANG 1 JUTA TK : Laporan media reuters pada juli 2024, jepang menghadapi kekuranga hampir satu juta pekerja asing pada 2040'
+export const NFT_MODULE_DESCRIPTION = 'JUMLAH TK ASING TERUS MENINGKAT : Jumlah pekerja asing di jepang meningkat lebih dari empat kali lipat dalam 15 tahun terakhir menjadi 2,05 juta, atau sekitar 3% dari seluruh tenaga kerja, per Oktober 2023'
+export const TOKEN_DESCRIPTION = 'MEMBUTUHKAN TENAGA KERJA : Jepang mengharapkan bantuan manpower atau tenaga kerja dari berbagai negara, salahsatunya dari indonesia.'
+export const WORDPRESS_PLUGIN_DESCRIPTION = ''
+export const JEPANG_APP = ''
+export const KERJA_JEPANG = ''
+export const KERJA_INFORMATIK = ''
 
-export const ISCN_DESCRIPTION = 'For the future of decentralized publishing to work, it is essential to have a global, decentralized, and resilient digital content registry as the cornerstone. International Standard Content Number, abbreviated as <b class="text-like-cyan">ISCN</b>, is a metadata framework for digital content on the LikeCoin chain. ISCN is like a <b class="text-like-cyan">digital content ID</b>; helps to identify a specific digital content, records the content metadata, the intellectual property rights, and the stakeholders of the creation. ISCN also represents the <b class="text-like-cyan">property right layer</b> of LikeCoin NFT, it records the relationships between the content and creator.'
-export const IPFS_DESCRIPTION = 'LikeCoin provides permanent storage for LikeCoin network users, perma-pin IPFS files with Arweave, and records their storage location in the ISCN content metadata. Users can query and parse content metadata from LikeCoin chain.'
-export const NFT_MODULE_DESCRIPTION = 'LikeCoin utilizes Cosmos SDK’s x/nft standard enables users to create NFT classes and mint NFTs under an ISCN metadata record. LikeCoin envisions a future where digital content is transformed from web-native to NFT native format. All content will be natively created on the blockchain and stored separately in the property right and NFT layers.'
-export const TOKEN_DESCRIPTION = 'LIKE is the native token of the LikeCoin chain. It is the utility and governance token of the LikeCoin ecosystem. All network usage and services such as content registry, storage, writing NFT, and like reward mechanism will require LIKE to facilitate.'
-export const WIDGET_DESCRIPTION = 'A <b class="text-like-cyan">mini NFT marketplace</b> that can be <b class="text-like-cyan">embedded</b> into any website. Writers can focus on creating quality content while readers can collect and own their favorite articles in NFT. Everyone can sell his or her work as NFT without worrying about the technical legwork. With a simplified process of creating an NFT, writers can quickly turn their writing into an NFT at the same time when they publish to the internet.'
-export const PORTAL_DESCRIPTION = 'Writers can turn any <b class="text-like-cyan">webpage</b> into an NFT. Enjoy the benefits of decentralized storage and create NFT in several clicks. No more pages not found, always <b class="text-like-cyan">accessible</b> to your content, truly own and <b class="text-like-cyan">monetize</b> your work.'
-export const WORDPRESS_PLUGIN_DESCRIPTION = 'Self-host bloggers can install the <b class="text-like-cyan">Web3Press WordPress plugin</b> to place the NFT widget on their site and publish posts as NFTs.'
+// Array supaya gampang looping
+export const DESCRIPTIONS = [
+  { title: "LIKECOIN", text: LIKECOIN_DESCRIPTION },
+  { title: "KERJA", text: TENAGA_KERJA },
+  { title: "KURANG", text: KURANG_TENAGA },
+  { title: "BANYAK USIA LANJUT", text: ISCN_DESCRIPTION },
+  { title: "KURANG 1 JUTA TK", text: IPFS_DESCRIPTION },
+  { title: "JUMLAH TK ASING TERUS MENINGKAT", text: NFT_MODULE_DESCRIPTION },
+  { title: "MEMBUTUHKAN TENAGA KERJA", text: TOKEN_DESCRIPTION },
+  { title: "WordPress Plugin", text: WORDPRESS_PLUGIN_DESCRIPTION },
+  { title: "KERJA RODI", text: JEPANG_APP },
+  { title: "JEPANG KERJA", text: KERJA_JEPANG },
+  { title: "INFORMATIK", text: KERJA_INFORMATIK },
+];

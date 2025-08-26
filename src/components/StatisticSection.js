@@ -33,32 +33,36 @@ export default function StatisticSection() {
         <ul className="mx-auto my-14 w-full lg:max-w-[1024px] xl:max-w-[1440px] min-w-[224px] gap-x-[96px] gap-y-[48px] grid md:grid-cols-2 xl:grid-cols-3 sm:flex-row flex-wrap justify-center">
           <li>
             <StatNumber
-              value={iscnOwnerCount || 20135}
-              unit="creators"
-              label="have registered content in the LikeCoin network"
+              value="VISI"
+              unit=""
+              label="Menjadi penyelenggara pendidikan bahasa Jepang 
+              unggulan skla internasional yang berkontribusi pada pengembangan SDM dan penyebaran dakwah islam"
             />
           </li>
           <li>
             <StatNumber
-              value={registeredContents || 2368038}
+              value="MISI"
               unit="content"
-              label="are registered in the LikeCoin network"
+              label="1.	Menggali Potensi bahasa Jepang dan skil unik siswa.
+              2. Membimbing siswa di dalam maupun di luar kelas terkait pembelajaran bahasa Jepang dan kehidupan di Jepang.
+              3. Mencetak resource yang mampu berdakwah di Jepang.
+              4. Mencetak resource yang mampu bersaing di era global."
             />
           </li>
-          <li>
+          {/* <li>
             <StatNumber
               value={writingNFTCount || 15095}
               unit="Writing NFT"
               label="are minted from content"
             />
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <StatNumber
               value={likeDistribution || 56186085}
               unit="LIKE"
               label="are distributed to creators"
             />
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>

@@ -13,7 +13,7 @@ function LatestNewsSection({ className, items, blogUrl, ...props }) {
       className={cn("flex flex-col items-center mt-[88px]", className)}
       {...props}
     >
-      <GradientText tag="h3" className="text-[32px] text-center">Latest News</GradientText>
+      <GradientText tag="h3" className="text-[32px] text-center">Artikel</GradientText>
       <ul className="grid md:grid-cols-2 gap-[32px] mt-[32px]">
         {items.map(({ title, url, date, image }, i) => (
           <li key={i} className="max-w-[400px]">
