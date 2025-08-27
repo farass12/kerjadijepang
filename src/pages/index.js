@@ -65,13 +65,13 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
             <source src={HeroVideoWebm} type="video/webm" />
             <source src={HeroVideoMp4} type="video/mp4" />
           </video>
-          <div className="absolute hidden inset-x-0 bottom-0 h-[25%] md:flex justify-center">
+          {/* <div className="absolute hidden inset-x-0 bottom-0 h-[25%] md:flex justify-center">
             <img
               className="w-[22px] mb-[24px] object-contain"
               src={ScrollDownHintImage}
               alt="Scroll Down"
             />
-          </div>
+          </div> */}
         </div>
         <div className="relative text-center p-[24px]">
           <GradientText tag="h1" className="text-[42px] sm:text-[64px] md:text-[80px] leading-tight"></GradientText>
@@ -290,7 +290,7 @@ export default function HomePageWithData(props) {
         const appListData = JSON.parse(appListCode);
         const apps = appListData
           .filter((data) => data.title === "Apps")[0].items
-          .slice(0, 4);
+          .slice(0, 6);
         return (
           <HomePage
             apps={apps}

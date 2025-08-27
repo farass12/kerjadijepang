@@ -5,41 +5,41 @@ import GradientText from "./GradientText"
 
 export default function AwardsPartnersSection({ className, ...props }) {
   const items = [
-    {
-      title :"Google News",
-      url: "https://www.blog.google/around-the-globe/google-asia/gni-innovation-challenge-apac/",
-      key: "google",
-    },
-    {
-      title :"Grant for the Web",
-      url: "https://www.grantfortheweb.org/blog/2020-flagship-grantees",
-      key: "grantfortheweb",
-    },
-    {
-      title :"Cosmos cross chain hackerthon (2nd place)",
-      url: "https://blog.cosmos.network/announcing-the-cross-chain-hackathon-winners-698b6d03bd6",
-      key: "cosmos",
-    },
-    {
-      title :"Cosmos HackAtom (Honorable mentions)",
-      url: "https://blog.cosmos.network/cosmos-hackatom-seoul-winners-d6badbd0629b",
-      key: "hackatom",
-    },
-    {
-      title :"CAI",
-      url: "https://contentauthenticity.org/",
-      key: "cai",
-    },
-    {
-      title :"IPFS",
-      url: "https://bit.ly/3gw6aWy",
-      key: "ipfs",
-    },
-    {
-      title :"Arweave",
-      url: "https://www.arweave.org",
-      key: "arweave",
-    },
+    // {
+    //   title :"Google News",
+    //   url: "https://www.blog.google/around-the-globe/google-asia/gni-innovation-challenge-apac/",
+    //   key: "google",
+    // },
+    // {
+    //   title :"Grant for the Web",
+    //   url: "https://www.grantfortheweb.org/blog/2020-flagship-grantees",
+    //   key: "grantfortheweb",
+    // },
+    // {
+    //   title :"Cosmos cross chain hackerthon (2nd place)",
+    //   url: "https://blog.cosmos.network/announcing-the-cross-chain-hackathon-winners-698b6d03bd6",
+    //   key: "cosmos",
+    // },
+    // {
+    //   title :"Cosmos HackAtom (Honorable mentions)",
+    //   url: "https://blog.cosmos.network/cosmos-hackatom-seoul-winners-d6badbd0629b",
+    //   key: "hackatom",
+    // },
+    // {
+    //   title :"CAI",
+    //   url: "https://contentauthenticity.org/",
+    //   key: "cai",
+    // },
+    // {
+    //   title :"IPFS",
+    //   url: "https://bit.ly/3gw6aWy",
+    //   key: "ipfs",
+    // },
+    // {
+    //   title :"Arweave",
+    //   url: "https://www.arweave.org",
+    //   key: "arweave",
+    // },
     {
       title :"AppWorks Demo Day #18",
       url: "https://appworks.tw/accelerator",

@@ -11,14 +11,21 @@ en:
               "image": "/uploads/apps/liker-land.svg",
               "title": "Lingkungan Kerja Memadai",
               "url": "https://liker.land",
-              "isOfficial": true,
+              "isOfficial": false,
+              "description": "Pekerja Tokutei Shoku & Tokutei Ginou ditempatkan sesuai skill keahlian kerjanya sama dengan pekerja lokal."
+            },
+            {
+              "image": "/uploads/apps/liker-land.svg",
+              "title": "Lingkungan Kerja Memadai",
+              "url": "https://liker.land",
+              "isOfficial": false,
               "description": "Pekerja Tokutei Shoku & Tokutei Ginou ditempatkan sesuai skill keahlian kerjanya sama dengan pekerja lokal."
             },
             {
               "image": "/uploads/plugins/w3p.png",
               "title": "Gaji Relatif Lebih Tinggi",
               "buttonTitle": "Visit",
-              "isOfficial": true,
+              "isOfficial": false,
               "url": "http://w3press.io",
               "description": "Standar gaji Jepang relatif lebih tinggi dibandingkan rata-rata gaji pekerja Indonesia. Rata-rata gaji pekerja Indonesia di Jepang berkisar antara 15 hingga 25 juta per bulan untuk entry level."
             },

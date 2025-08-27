@@ -34,7 +34,7 @@ export default function StatisticSection() {
           <li>
             <StatNumber
               value="VISI"
-              unit=""
+              unit="iiiij"
               label="Menjadi penyelenggara pendidikan bahasa Jepang 
               unggulan skla internasional yang berkontribusi pada pengembangan SDM dan penyebaran dakwah islam"
             />
