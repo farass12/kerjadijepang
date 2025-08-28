@@ -27,11 +27,11 @@ export default function StatNumber({
             {isShow || hasShown
               ? (    
                 <CountUp
-                  start={value * 0.95}
-                  end={value}
-                  delay={0}
-                  separator=","
-                  duration={2}
+                  // start={value * 0.95}
+                  // end={value}
+                  // delay={0}
+                  // separator=","
+                  // duration={2}
                 >
                   {({ countUpRef }) => (
                     <span className="text-[36px] sm:text-[56px] min-h-[54px] sm:min-h-[84px] font-bold text-white font-display" ref={countUpRef} />

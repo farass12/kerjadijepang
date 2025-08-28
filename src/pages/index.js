@@ -5,6 +5,7 @@ import HeroVideoMp4 from "../videos/hero.mp4"
 import HeroVideoWebm from "../videos/hero.webm"
 import HeroImage from "../images/hero.png"
 import ScrollDownHintImage from "../images/scroll-down-hint.png"
+import { ArrowRight } from "lucide-react"
 import {
   LIKECOIN_DESCRIPTION,
   TENAGA_KERJA,
@@ -89,7 +90,7 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
           href="https://liker.land"
           target="_blank"
           rel="noopener"
-        >Explore NFT Book</Button>
+        >DAFTAR SEKARANG</Button>
         <nav className="flex justify-center mt-[24px]">
           <ul className="grid grid-cols-2 sm:flex flex-wrap gap-x-[8px] gap-y-[16px]">
             {/* <li>
@@ -141,7 +142,7 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
         </div>
         <div className="relative flex flex-col justify-center flex-grow md:max-w-[66%] p-[24px]">
           <GradientText tag="h2" className="text-[48px] text-center md:text-left">JEPANG KRISIS TENAGA KERJA</GradientText>
-          <p className="mt-[24px] text-like-cyan-vlight text-[20px]">{LIKECOIN_DESCRIPTION}</p>
+          {/* <p className="mt-[24px] text-like-cyan-vlight text-[20px]">{LIKECOIN_DESCRIPTION}</p> */}
           <ul className="grid md:grid-cols-2	gap-x-[32px] gap-y-[48px] mt-[48px]">
             <li>
               <ParagraphSection title="BANYAK USIA LANJUT">
@@ -214,41 +215,172 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
             </li>
           ))}
         </AppGridList>
-        <div className="flex items-center justify-center mt-[32px]">
+        {/* <div className="flex items-center justify-center mt-[32px]">
           <Link to="/apps">
             <Button preset="filled">More Apps</Button>
           </Link>
-        </div>
+        </div> */}
       </section>
 
       <JoinValidatorSection className="mt-[88px]" />
 
-      <section className="flex flex-col items-center mt-[100px] p-[24px]">
-        <GradientText tag="h2" className="text-[48px] text-center md:text-left">
-          Swap, Stake, and Earn LIKE
-        </GradientText>
-        <p className="mt-[24px] text-like-cyan-vlight text-[20px]">Swap, stake, and earn LIKE in one click and start to generate yields on the leading decentralized Cosmos exchange, <a className="font-[600] text-like-cyan underline" href="https://app.osmosis.zone/pool/553" target="_blank" rel="noopener">Osmosis</a>.</p>
-      </section>
+  <section className="flex flex-col items-center mt-[100px] p-[24px]">
+  <GradientText tag="h2" className="text-[48px] text-center md:text-left">
+   PERKIRAAN BIAYA PRIBADI</GradientText>
+   <GradientText tag="h3" className="text-[48px] text-center md:text-left">
+    <p>UNTUK KERJA DI JEPANG</p></GradientText>
+  
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 text-like-cyan-vlight text-[20px]">
+    {/* Kolom kiri */}
+    <div className="space-y-10">
+      <div>
+        <div className="flex items-center">
+          <ArrowRight size={18} className="mr-2 text-like-cyan-vlight" />
+          <span>Paspor Elektronik 5 tahun (Rp. 650.000) 
+          <p>Paspor Elektronik 10 tahun (Rp. 950.000)</p></span>
+        </div>
+        <div className="border-b border-like-cyan-vlight w-[99%] mt-3"></div>
+      </div>
+
+      <div>
+        <div className="flex items-center">
+          <ArrowRight size={18} className="mr-2 text-like-cyan-vlight" />
+          <span>Biaya Aplikasi Visa (Rp. 500.000)</span>
+        </div>
+        <div className="border-b border-like-cyan-vlight w-[99%] mt-3"></div>
+      </div>
+
+      <div>
+        <div className="flex items-center">
+          <ArrowRight size={18} className="mr-2 text-like-cyan-vlight" />
+          <span>Ujian JLPT N3 (Rp. 220.000)
+          <p>Ujian JLPT N4 (Rp. 180.000)</p></span>
+        </div>
+        <div className="border-b border-like-cyan-vlight w-[99%] mt-3"></div>
+      </div>
+    </div>
+
+    {/* Kolom kanan */}
+    <div className="space-y-10">
+      <div>
+        <div className="flex items-center">
+          <ArrowRight size={18} className="mr-2 text-like-cyan-vlight" />
+          <span>Ujian Specified Skilled Worker 
+            <p>(SSW) (Rp. 500.000)</p></span>
+        </div>
+        <div className="border-b border-like-cyan-vlight w-[83%] mt-2"></div>
+      </div>
+
+      <div>
+        <div className="flex items-center">
+          <ArrowRight size={18} className="mr-2 text-like-cyan-vlight" />
+          <span>Tiket Pesawat (Rp. 5.000.000)</span>
+        </div>
+        <div className="border-b border-like-cyan-vlight w-[83%] mt-2"></div>
+      </div>
+
+      <div>
+        <div className="flex items-center">
+          <ArrowRight size={18} className="mr-2 text-like-cyan-vlight" />
+          <span>Uang saku sampai gajian 
+            <p>(Rp. 6.000.000)</p></span>
+        </div>
+        <div className="border-b border-like-cyan-vlight w-[83%] mt-2"></div>
+      </div>
+    </div>
+  </div>
+
+  <p className="mt-[15px] text-like-cyan-vlight text-[15px] text-center">
+    *Biaya pribadi ini tidak diserahkan ke HASHIWA, melainkan digunakan langsung oleh peserta
+  </p>
+</section>
 
       <div className="relative mx-[24px] mt-[88px] px-[16px] md:px-[64px] py-[64px] rounded-[16px] border-[1px] border-like-cyan-light">
-        <section className="flex flex-col items-center">
-          <GradientText tag="h3" className="text-[32px] text-center">Join the community</GradientText>
-          <ul className="grid grid-cols-2 sm:grid-flow-col-dense auto-cols-auto gap-x-[48px] md:gap-x-[96px] mt-[48px] gap-y-[48px]">
-            {communityItems.map((type) => (
-              <li key={type}>
-                <CommunityLink type={type} />
-              </li>
-            ))}
-          </ul>
-        </section>
+  <section className="justify-center min-h-screen p-[24px] flex flex-col items-center">
+    <GradientText tag="h3" className="text-[32px] text-center">
+      SYARAT CALON PESERTA
+    </GradientText>
+
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 text-like-cyan-vlight text-[20px]">
+      {/* Kolom kiri */}
+      <div className="space-y-10">
+        <div>
+          <div className="flex items-center">
+            <ArrowRight size={30} className="mr-2 text-like-cyan-vlight" />
+            <span>Sarjana (S1) di bidang Teknik Informatika / Manajemen Informatika / Sistem Informasi</span>
+          </div>
+          <div className="border-b border-like-cyan-vlight w-[82%] mt-2"></div>
+        </div>
+
+        <div>
+          <div className="flex items-center">
+            <ArrowRight size={18} className="mr-2 text-like-cyan-vlight" />
+            <span>Berpengalaman di bidang IT</span>
+          </div>
+          <div className="border-b border-like-cyan-vlight w-[82%] mt-2"></div>
+        </div>
+
+        <div>
+          <div className="flex items-center">
+            <ArrowRight size={18} className="mr-2 text-like-cyan-vlight" />
+            <span>Berkomitmen belajar bahasa Jepang</span>
+          </div>
+          <div className="border-b border-like-cyan-vlight w-[82%] mt-2"></div>
+        </div>
+
+        <div>
+          <div className="flex items-center">
+            <ArrowRight size={18} className="mr-2 text-like-cyan-vlight" />
+            <span>TOEIC Minimal 550 / 600 (Preferable)</span>
+          </div>
+          <div className="border-b border-like-cyan-vlight w-[82%] mt-2"></div>
+        </div>
+      </div>
+
+      {/* Kolom kanan */}
+      <div className="space-y-10">
+        <div>
+          <div className="flex items-center">
+            <ArrowRight size={18} className="mr-2 text-like-cyan-vlight" />
+            <span>Berkelakuan baik dan berakhlak mulia</span>
+          </div>
+          <div className="border-b border-like-cyan-vlight w-[93%] mt-2"></div>
+        </div>
+
+        <div>
+          <div className="flex items-center">
+            <ArrowRight size={18} className="mr-2 text-like-cyan-vlight" />
+            <span>Tidak merokok / bersedia berhenti merokok</span>
+          </div>
+          <div className="border-b border-like-cyan-vlight w-[93%] mt-2"></div>
+        </div>
+
+        <div>
+          <div className="flex items-center">
+            <ArrowRight size={18} className="mr-2 text-like-cyan-vlight" />
+            <span>Bersedia dikontrak 2 tahun saat bekerja di Jepang</span>
+          </div>
+          <div className="border-b border-like-cyan-vlight w-[93%] mt-2"></div>
+        </div>
+
+        <div>
+          <div className="flex items-center">
+            <ArrowRight size={18} className="mr-2 text-like-cyan-vlight" />
+            <span>Tidak bertato</span>
+          </div>
+          <div className="border-b border-like-cyan-vlight w-[93%] mt-2"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
         <Divider className="mx-auto my-[48px]" />
         <LatestNewsSection className="mt-[88px]" />
         <Divider className="mx-auto my-[48px]" />
         <MediaCoverageSection className="mt-[88px]" />
-      </div>
-
       <AwardsPartnersSection className="mt-[88px]" />
-
       <SubscribeNewsletterSection />
     </Layout>
   )
@@ -276,9 +408,11 @@ export default function HomePageWithData(props) {
             }
           }
           homePage: pagesJson(name: {eq: "home"}) {
-            writingNFTItems {
-              classId
-            }
+        writingNFTItems {
+  image
+  title
+}
+
           }
         }
       `}

@@ -9,10 +9,10 @@ en:
           "items": [
             {
               "image": "/uploads/apps/liker-land.svg",
-              "title": "Lingkungan Kerja Memadai",
+              "title": "Pesona 4 musim",
               "url": "https://liker.land",
               "isOfficial": false,
-              "description": "Pekerja Tokutei Shoku & Tokutei Ginou ditempatkan sesuai skill keahlian kerjanya sama dengan pekerja lokal."
+              "description": "jepang di kenal dengan indahnya bunya sakura, salju, dan warna-warni dedaunan di musim gugur. kamu bsa memanfaatkan kesempatan bekerja sambil menikmati suasana 4 musim di jepang. "
             },
             {
               "image": "/uploads/apps/liker-land.svg",
@@ -45,10 +45,10 @@ en:
             },
             {
               "image": "/uploads/apps/illustbuy.jpg",
-              "title": "IllustBuy",
+              "title": "infrastruktur memdai",
               "url": "https://illustbuy.com",
               "isOfficial": false,
-              "description": "Platform that connects illustrators and society for commissioned arts."
+              "description": "jepang adalah negara memiliki infrastruktur yang baik, sistem kesehatan yang terjamin, pendidikan berkualitas, dan transportasi yang efesien, ini adalah dari faktor-faktor yang mendukung kualitas hidup masyakrakat jepang."
             },
             {
               "image": "/uploads/apps/oice.jpg",

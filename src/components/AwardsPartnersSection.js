@@ -40,18 +40,18 @@ export default function AwardsPartnersSection({ className, ...props }) {
     //   url: "https://www.arweave.org",
     //   key: "arweave",
     // },
-    {
-      title :"AppWorks Demo Day #18",
-      url: "https://appworks.tw/accelerator",
-      key: "appworks",
-    },
+    // {
+    //   title :"AppWorks Demo Day #18",
+    //   url: "https://appworks.tw/accelerator",
+    //   key: "appworks",
+    // },
   ].map(({ key, ...item }) => ({ ...item, key, image: `/uploads/awards-partners/${key}.svg`}))
   return (
     <section
       className={cn("flex flex-col items-center mt-[88px]", className)}
       {...props}
     >
-      <GradientText tag="h3" className="text-[32px] text-center">Awards & Partners</GradientText>
+      {/* <GradientText tag="h3" className="text-[32px] text-center">Awards & Partners</GradientText> */}
       <ul className="grid sm:grid-cols-2 md:grid-cols-4 gap-x-[16px] gap-y-[32px] mt-[32px]">
         {items.map(({ key, title, url, image }) => (
           <li

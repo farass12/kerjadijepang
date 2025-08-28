@@ -8193,6 +8193,11 @@
   dependencies:
     "es5-ext" "~0.10.2"
 
+"lucide-react@^0.542.0":
+  "integrity" "sha512-w3hD8/SQB7+lzU2r4VdFyzzOzKnUjTZIF/MQJGSSvni7Llewni4vuViRppfRAa2guOsY5k4jZyxw/i9DQHv+dw=="
+  "resolved" "https://registry.npmjs.org/lucide-react/-/lucide-react-0.542.0.tgz"
+  "version" "0.542.0"
+
 "make-dir@^3.0.0", "make-dir@^3.0.2", "make-dir@^3.1.0":
   "integrity" "sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw=="
   "resolved" "https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz"

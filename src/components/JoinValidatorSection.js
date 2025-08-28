@@ -7,7 +7,7 @@ import NorthEastIcon from "./icons/NorthEast";
 
 export const JoinValidatorSection = ({ className, ...props }) => {
   const items = [
-    { title: "UDomain", key: "udomain", address: 'likevaloper1x79u5q9eldwx4cp8h93p65jx3q6fzyfp48uzgz' },
+    // { title: "UDomain", key: "udomain", address: 'likevaloper1x79u5q9eldwx4cp8h93p65jx3q6fzyfp48uzgz' },
     // { title: "Animoca Brand", key: "animoca", address: 'likevaloper1snsg3y0kl9zujfnqjs9u2c2j9hsnwhvmecdqnu' },
     // { title: "9Gag", key: "9gag", address: 'likevaloper16m5383ccel65h49k3l9h3q2vg5yn8lxadqe0pv' },
     // { title: "Blocktrend", key: "blocktrend", address: 'likevaloper18u8zdrgngyfeq2rfh9ds7a3hg7awx8h9kxsre6' },
@@ -28,8 +28,8 @@ export const JoinValidatorSection = ({ className, ...props }) => {
       className={cn("flex flex-col items-center mt-[88px]", className)}
       {...props}
     >
-      <GradientText tag="h3" className="text-[32px] text-center">Join as a Validator</GradientText>
-      <ul className="grid sm:grid-cols-2 md:grid-cols-4 gap-x-[16px] gap-y-[32px] mt-[32px]">
+      {/* <GradientText tag="h3" className="text-[32px] text-center">Time Line </GradientText> */}
+      {/* <ul className="grid sm:grid-cols-2 md:grid-cols-4 gap-x-[16px] gap-y-[32px] mt-[32px]">
         {items.map(({ key, title, url, image }) => (
           <li
             key={key}
@@ -49,14 +49,16 @@ export const JoinValidatorSection = ({ className, ...props }) => {
             )}
           </li>
         ))}
-      </ul>
-      <div className="flex items-center justify-center mt-[32px]">
-        <a href="https://docs.like.co/validator/" target="_blank" rel="noopener">
-          <Button
-            className="flex items-center justify-center"
-            preset="filled"
-          >Learn More <NorthEastIcon className="ml-[8px]"/></Button>
-        </a>
+      </ul> */}
+      
+        <GradientText tag="h2" className="text-[48px] text-center md:text-left"> PROSES BELAJAR BAHASA JEPANG </GradientText>
+        <GradientText tag="h2" className="text-[48px] text-center md:text-left"> HINGGA BEKERJA DI JEPANG</GradientText>
+      <div className="mt-[10px]">
+        <img
+          src="/timeline.jpg" // ✅ langsung panggil dari static/
+          alt="Timeline Program Jepang"
+          // className="rounded-xl shadow-lg hover:scale-105 transition-transform duration-300"
+        />
       </div>
     </section>
   )

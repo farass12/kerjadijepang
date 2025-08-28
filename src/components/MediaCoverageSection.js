@@ -11,7 +11,7 @@ function MediaCoverageSection({ className, items, ...props }) {
       className={cn("flex flex-col items-center mt-[88px]", className)}
       {...props}
     >
-      <GradientText tag="h3" className="text-[32px] text-center">Media Coverage</GradientText>
+      {/* <GradientText tag="h3" className="text-[32px] text-center">Kelas </GradientText> */}
       <ul className="grid items-center sm:items-start sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[32px] mt-[32px]">
         {items.map(({ title, url, platform, image, backgroundColor }, i) => (
           <li key={i} className="min-w-[240px]">

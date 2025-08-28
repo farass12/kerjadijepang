@@ -6,13 +6,13 @@ export default function LatestNewsItem({
   className,
   title,
   date,
-  url,
   image,
   ...props
 }) {
-  const formattedDate = formatDate(new Date(date), 'dd/MM/yyyy')
+  const formattedDate = date ? formatDate(new Date(date), 'dd/MM/yyyy') : null
+
   return (
-    <a
+    <div
       className={cn(
         'block',
         'overflow-hidden',
@@ -21,19 +21,11 @@ export default function LatestNewsItem({
         'border-[1px]',
         'rounded-[8px]',
         'transition',
-        'transition-transform',
-        'hover:relative',
-        'hover:z-10',
         'hover:shadow-xl',
-        'hover:ring-black',
         'hover:scale-[1.05]',
         'active:scale-[1]',
         className,
       )}
-      href={url}
-      title={title}
-      target="_blank"
-      rel="noopener"
       {...props}
     >
       <div className="aspect-w-15 aspect-h-8">
@@ -46,8 +38,10 @@ export default function LatestNewsItem({
       </div>
       <div className="p-[16px]">
         <div className="text-dark-gray text-[16px]">{title}</div>
-        <div className="mt-[10px] text-[14px] text-medium-gray">{formattedDate}</div>
+        {formattedDate && (
+          <div className="mt-[10px] text-[14px] text-medium-gray">{formattedDate}</div>
+        )}
       </div>
-    </a>
+    </div>
   )
 }

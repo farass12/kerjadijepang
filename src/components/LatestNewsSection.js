@@ -28,7 +28,7 @@ function LatestNewsSection({ className, items, blogUrl, ...props }) {
         ))}
       </ul>
 
-      <Button
+      {/* <Button
         className="flex items-center mt-[32px]"
         preset="filled"
         href={blogUrl}
@@ -37,7 +37,7 @@ function LatestNewsSection({ className, items, blogUrl, ...props }) {
       >
         More News
         <NorthEastIcon className="ml-[8px]" />
-      </Button>
+      </Button> */}
     </section>
   )
 }

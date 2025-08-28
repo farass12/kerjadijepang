@@ -55,8 +55,8 @@ export default function StatisticSection() {
               unit="Writing NFT"
               label="are minted from content"
             />
-          </li> */}
-          {/* <li>
+          </li> */
+          /* <li>
             <StatNumber
               value={likeDistribution || 56186085}
               unit="LIKE"
