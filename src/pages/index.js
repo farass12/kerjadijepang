@@ -108,23 +108,68 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
       {/* LikeCoin chain Section */}
 {/* Writing NFT Section */}
 
-<section className="flex flex-col items-center mt-[100px] p-[24px]">
-        <GradientText tag="h2" className="text-[48px] text-center md:text-left">
-          JEPANG KRISIS TENAGA KERJA
-        </GradientText>
-        <GridListApp className="mt-[32px]">
-          {apps.map((data) => (
-            <li key={data.title} className="w-[268px]">
-              <ItemApp {...data} />
-            </li>
-          ))}
-        </GridListApp>
-        {/* <div className="flex items-center justify-center mt-[32px]">
-          <Link to="/apps">
-            <Button preset="filled">More Apps</Button>
-          </Link>
-        </div> */}
-      </section>
+<section className="flex flex-col items-center mt-24 px-6">
+  <h2 className="text-4xl font-bold text-center text-white">
+    JEPANG KRISIS TENAGA KERJA
+  </h2>
+
+  <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+    {/* Card 1 */}
+    <div className="bg-[#8b1c2e] border border-white rounded-2xl p-6 text-white shadow-lg">
+      <div className="text-4xl mb-4">🌸❄️🍂☀️</div>
+      <h3 className="text-xl font-semibold mb-2">Banyak Usia Lanjut</h3>
+      <p className="text-sm leading-relaxed">
+        Usia lanjut di jepang lebih banyak dari pada usia muda, yang artinya pekerja 
+        usia muda sangat sedikit sekali.
+      </p>
+    </div>
+
+    {/* Card 2 */}
+    <div className="bg-[#8b1c2e] border border-white rounded-2xl p-6 text-white shadow-lg">
+      <div className="text-4xl mb-4">🏢</div>
+      <h3 className="text-xl font-semibold mb-2">Kurang Dari 1 JUTA TK </h3>
+      <p className="text-sm leading-relaxed">
+        Laporan media reuters pada juli 2024, jepang menghadapi kekurangan hampir 
+        1 juta pekerja asing pada tahun 2040.
+      </p>
+    </div>
+<div className="bg-[#8b1c2e] border border-white rounded-2xl p-6 text-white shadow-lg">
+      <div className="text-4xl mb-4">💴</div>
+      <h3 className="text-xl font-semibold mb-2">Jumlah TK Asing Terus Meningkat</h3>
+      <p className="text-sm leading-relaxed">
+        jumlah pekerja asing di jepang meningkat lebih dari empat kali lipat dalam 15 tahun terakhir 
+        menjadi 2,05 juta atau sekitar 3% dari seluruh tenaga kerja per Oktober 2023.
+      </p>
+    </div>
+    {/* Card 3 */}
+    <div className="bg-[#8b1c2e] border border-white rounded-2xl p-6 text-white shadow-lg">
+      <div className="text-4xl mb-4">💴</div>
+      <h3 className="text-xl font-semibold mb-2">Membutuhkan tenaga kerja</h3>
+      <p className="text-sm leading-relaxed">
+        Jepang mengharapkan bantuan manpower atau tenaga kerja dari berbagai negara, 
+        salah satunya dari indonesia.
+      </p>
+    </div>
+    <div className="bg-[#8b1c2e] border border-white rounded-2xl p-6 text-white shadow-lg">
+      <div className="text-4xl mb-4">💴</div>
+      <h3 className="text-xl font-semibold mb-2">Pekkerja Asing Sangat Penting</h3>
+      <p className="text-sm leading-relaxed">
+        Pekerja asing di anggap sangat penting bagi ekonomi jepang karena mereka membantu 
+        mengisi kekurangan tenaga kerja yang parah karena penuaan dan angka kelahiran yang 
+        turun drastis.
+      </p>
+    </div>
+    <div className="bg-[#8b1c2e] border border-white rounded-2xl p-6 text-white shadow-lg">
+      <div className="text-4xl mb-4">💴</div>
+      <h3 className="text-xl font-semibold mb-2">kurang 3,8 juta di 2035</h3>
+      <p className="text-sm leading-relaxed">
+        Menurut media lokal Jepang (JiJi pers) Jepang diproyeksikan akan menghadapi kekurangan 
+        tenaga kerja yang setara dengan 3,84 juta pekerja pada tahun 2035, yang berarti 17,75 
+        juta jam kerja yang tidak terisi setiap hari, media lokal melaporkan.
+      </p>
+    </div>
+  </div>
+</section>
 
 <section className="mt-[96px] px-[24px]">
   <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-[32px]">

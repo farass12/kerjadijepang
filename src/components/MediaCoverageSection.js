@@ -2,19 +2,49 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import cn from "classnames"
 
-import GradientText from "./GradientText"
+// ✅ Ikon (optional, bisa aktifkan kalau perlu)
+import { FaInstagram } from "react-icons/fa"
+import { FaTiktok } from "react-icons/fa6"
+
 import MediaCoverageItem from "./MediaCoverageItem"
+
 
 function MediaCoverageSection({ className, items, ...props }) {
   return (
+    
     <section
-      className={cn("flex flex-col items-center mt-[88px]", className)}
+      className={cn(
+        "flex flex-col items-center mt-[4px]",
+        (!items || items.length === 0) && "hidden", // 🔧 auto-hide kalau kosong
+        className
+      )}
       {...props}
     >
-      {/* <GradientText tag="h3" className="text-[32px] text-center">Kelas </GradientText> */}
-      <ul className="grid items-center sm:items-start sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[32px] mt-[32px]">
+      {/* 🔗 Sosial Media (opsional, tinggal aktifkan lagi kalau mau) */}
+      {/* <div className="flex gap-2 mt-2">
+        <a
+          href="https://instagram.com/Kerja_Jepang_aic"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="p-2 rounded-full bg-pink-500 text-white hover:bg-pink-600 transition"
+        >
+          <FaInstagram size={22} />
+        </a>
+
+        <a
+          href="https://tiktok.com/@Kerja_Jepang_aic"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="p-2 rounded-full bg-pink-500 text-white hover:bg-pink-600 transition"
+        >
+          <FaTiktok size={20} />
+        </a>
+      </div> */}
+
+      {/* 🔲 List Item */}
+      <ul className="grid items-center sm:items-start sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8">
         {items.map(({ title, url, platform, image, backgroundColor }, i) => (
-          <li key={i} className="min-w-[240px]">
+          <li key={i} className="min-w-[4px] max-w-[4px]">
             <MediaCoverageItem
               className="w-full h-full mx-auto"
               title={title}
@@ -22,7 +52,7 @@ function MediaCoverageSection({ className, items, ...props }) {
               url={url}
               media={platform}
               backgroundColor={backgroundColor}
-            />  
+            />
           </li>
         ))}
       </ul>
@@ -55,12 +85,10 @@ export default function MediaCoverageSectionWithData(props) {
           }
         }
       `}
-      render={data => (
-        <MediaCoverageSection
-          items={data.items.edges.map(({ node }) => node.frontmatter)}
-          {...props}
-        />
-      )}
+      render={data => {
+        const items = data.items.edges.map(({ node }) => node.frontmatter)
+        return <MediaCoverageSection items={items} {...props} />
+      }}
     />
   )
 }

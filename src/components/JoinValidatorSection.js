@@ -55,7 +55,7 @@ export const JoinValidatorSection = ({ className, ...props }) => {
         <GradientText tag="h2" className="text-[48px] text-center md:text-left"> HINGGA BEKERJA DI JEPANG</GradientText> */}
       <div className="mt-[10px]">
         <img
-          src="/timeline.png" // ✅ langsung panggil dari static/
+          src="/timeline.jpg" // ✅ langsung panggil dari static/
           alt="Timeline Program Jepang"
           // className="rounded-xl shadow-lg hover:scale-105 transition-transform duration-300"
         />
