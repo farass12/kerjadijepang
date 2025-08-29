@@ -2,20 +2,29 @@
   "name": "home",
   "writingNFTItems": [
     {
-      "image": "/1.jpg",
-      "title": "NFT Pertama"
+      "image": "/perawat.jpg",
+      "title": "Bidang Perawat"
     },
     {
-      "image": "/1.jpg",
-      "title": "NFT Kedua"
+      "image": "/IT.jpg",
+      "title": "Bidang Information Technology"
     },
     {
-      "image": "/1.jpg",
-      "title": "NFT Ketiga"
+      "image": "/makanan.jpg",
+      "title": "Bidang pengolahan makanan"
     },
     {
-      "image": "/1.jpg",
-      "title": "NFT Keempat"
+      "image": "/petani.jpg",
+      "title": "Bidang pertanian"
+    },
+    {
+      "image": "/hotel.jpg",
+      "title": "Bidang Perhotelan"
+    },
+    {
+      "image": "/kuli.jpg",
+      "title": "Bidang Konstruksi"
     }
+    
   ]
 }

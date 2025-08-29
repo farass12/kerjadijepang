@@ -1,6 +1,6 @@
 ---
 en:
-  appItems:
+  Itemsapp:
     lang: json
     code: >-
       [
@@ -9,10 +9,10 @@ en:
           "items": [
             {
               "image": "/uploads/apps/enam.png",
-              "title": "Pesona 4 musim",
+              "title": "banyak usia lanjut",
               
               "isOfficial": false,
-              "description": "jepang di kenal dengan indahnya bunya sakura, salju, dan warna-warni dedaunan di musim gugur. kamu bsa memanfaatkan kesempatan bekerja sambil menikmati suasana 4 musim di jepang. "
+              "description": "jepang. "
             },
             {
               "image": "/uploads/apps/satu.png",

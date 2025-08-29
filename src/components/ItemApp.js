@@ -4,7 +4,7 @@ import cn from "classnames"
 import Button from "./Button"
 import NorthEastMiniIcon from "./icons/NorthEastMini"
 
-export default function AppItem({
+export default function ItemApp({
   title,
   image,
   url,

@@ -18,49 +18,49 @@ export default function Footer() {
       <nav>
         <ul className="grid grid-flow-col-dense auto-cols-auto gap-x-[8px] gap-y-[16px]">
           <li>
-            <Button
+            {/* <Button
               href={blogUrl}
               target="_blank"
               rel="noopener"
             >
               Blog
-            </Button>
+            </Button> */}
           </li>
           <li>
-            <Button
+            {/* <Button
               href="https://docs.like.co/faq"
               target="_blank"
               rel="noopener"
             >
               FAQ
-            </Button>
+            </Button> */}
           </li>
           <li>
-            <Button
+            {/* <Button
               href="https://ping.pub/likecoin"
               target="_blank"
               rel="noopener noreferrer"
             >
               Explorer
-            </Button>
+            </Button> */}
           </li>
           <li>
-            <Button
+            {/* <Button
               href="https://coinmarketcap.com/currencies/likecoin/"
               target="_blank"
               rel="noopener noreferrer"
             >
               Token
-            </Button>
+            </Button> */}
           </li>
           <li>
-            <Button
+            {/* <Button
               href="https://likecoin.notion.site/Branding-and-Design-96b3d582c3014003985a8819b31217fa"
               target="_blank"
               rel="noopener"
             >
               Brand
-            </Button>
+            </Button> */}
           </li>
         </ul>
       </nav>

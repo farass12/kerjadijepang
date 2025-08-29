@@ -24,7 +24,9 @@ import {
 } from "../text";
 
 import AppGridList from "../components/AppGridList"
+import GridListApp from "../components/GridListApp"
 import AppItem from "../components/AppItem"
+import ItemApp from "../components/ItemApp"
 import AwardsPartnersSection from "../components/AwardsPartnersSection"
 import Button from "../components/Button"
 import CommunityLink from "../components/CommunityLink"
@@ -36,7 +38,7 @@ import Layout from "../components/Layout"
 import MediaCoverageSection from "../components/MediaCoverageSection"
 import ParagraphSection from "../components/ParagraphSection"
 import StatisticSection from "../components/StatisticSection"
-import SubscribeNewsletterSection from "../components/SubscribeNewsletterSection"
+// import SubscribeNewsletterSection from "../components/SubscribeNewsletterSection"
 import NFTWidgetSlideshow from "../components/NFTWidgetSlideshow"
 import JoinValidatorSection from "../components/JoinValidatorSection"
 
@@ -85,100 +87,45 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
       {/* Sub-Nav Section */}
       <section className="flex flex-col items-center relative mt-[32px] sm:mt-[88px]">
         <Button
-          className="text-[22px]"
+          className="text-[22px] -mt-[100px]" 
           preset="filled"
-          href="https://liker.land"
+          href="https://api.whatsapp.com/send?phone=6281285234904&text=Hallo%20kak%2C%20saya%20Desi.%20Ada%20yang%20bisa%20saya%20bantu%3F"
           target="_blank"
           rel="noopener"
-        >DAFTAR SEKARANG</Button>
+        ><b>DAFTAR SEKARANG!</b></Button>
         <nav className="flex justify-center mt-[24px]">
           <ul className="grid grid-cols-2 sm:flex flex-wrap gap-x-[8px] gap-y-[16px]">
-            {/* <li>
-              <Button
-                preset="outlined"
-                href="https://app.like.co"
-                target="_blank"
-                rel="noopener"
-              >Register ISCN</Button>
-            </li> */}
-            {/* <li>
-              <Button
-                preset="outlined"
-                href="https://docs.like.co/"
-                target="_blank"
-                rel="noopener"
-              >Docs</Button>
-            </li> */}
-            {/* <li>
-              <Button
-                preset="outlined"
-                href={blogUrl}
-                target="_blank"
-                rel="noopener"
-              >Blog</Button>
-            </li> */}
-            {/* <li>
-              <Button
-                preset="outlined"
-                href="https://docs.like.co/faq"
-                target="_blank"
-                rel="noopener"
-              >FAQ</Button>
-            </li> */}
+
           </ul>
         </nav>
-        {/* <p className="text-[16px] mt-[24px]">
-          Questions? Ask the <a className="underline" href="http://discord.gg/likecoin">community</a>.
-        </p> */}
+
       </section>
+      
 
       {/* Statistic Section */}
       <StatisticSection />
 
       {/* LikeCoin chain Section */}
-      <section className="relative flex mt-[88px]">
-        <div className="relative flex justify-center flex-grow">
-          <KeyVisualImage className="absolute right-0 max-w-[750px] mr-[-120px] opacity-60 md:mr-0 md:opacity-100" />
-        </div>
-        <div className="relative flex flex-col justify-center flex-grow md:max-w-[66%] p-[24px]">
-          <GradientText tag="h2" className="text-[48px] text-center md:text-left">JEPANG KRISIS TENAGA KERJA</GradientText>
-          {/* <p className="mt-[24px] text-like-cyan-vlight text-[20px]">{LIKECOIN_DESCRIPTION}</p> */}
-          <ul className="grid md:grid-cols-2	gap-x-[32px] gap-y-[48px] mt-[48px]">
-            <li>
-              <ParagraphSection title="BANYAK USIA LANJUT">
-              {ISCN_DESCRIPTION}
-              </ParagraphSection>
+{/* Writing NFT Section */}
+
+<section className="flex flex-col items-center mt-[100px] p-[24px]">
+        <GradientText tag="h2" className="text-[48px] text-center md:text-left">
+          JEPANG KRISIS TENAGA KERJA
+        </GradientText>
+        <GridListApp className="mt-[32px]">
+          {apps.map((data) => (
+            <li key={data.title} className="w-[268px]">
+              <ItemApp {...data} />
             </li>
-            <li>
-              <ParagraphSection title="Pekerja asing sangat penting">
-              {TENAGA_KERJA}
-              </ParagraphSection>
-            </li>
-            <li>
-              <ParagraphSection title="Kurang 3,8 Juta di 2035">
-              {KURANG_TENAGA}
-              </ParagraphSection>
-            </li>
-            <li>
-              <ParagraphSection title="KURANG 1 JUTA TK " href="">
-              {IPFS_DESCRIPTION}
-              </ParagraphSection>
-            </li>
-            <li>
-              <ParagraphSection title="JUMLAH TK ASING TERUS MENINGKAT " href="">
-              {NFT_MODULE_DESCRIPTION}
-              </ParagraphSection>
-            </li>
-            <li>
-              <ParagraphSection title="MEMBUTUHKAN TENAGA KERJA" href="">
-              {TOKEN_DESCRIPTION}
-              </ParagraphSection>
-            </li>
-          </ul>
-        </div>
+          ))}
+        </GridListApp>
+        {/* <div className="flex items-center justify-center mt-[32px]">
+          <Link to="/apps">
+            <Button preset="filled">More Apps</Button>
+          </Link>
+        </div> */}
       </section>
 
-      {/* Writing NFT Section */}
 <section className="mt-[96px] px-[24px]">
   <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-[32px]">
 
@@ -201,6 +148,7 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
 
   </div>
 </section>
+
 
 
 
@@ -381,7 +329,7 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
         <Divider className="mx-auto my-[48px]" />
         <MediaCoverageSection className="mt-[88px]" />
       <AwardsPartnersSection className="mt-[88px]" />
-      <SubscribeNewsletterSection />
+      {/* <SubscribeNewsletterSection /> */}
     </Layout>
   )
 }
