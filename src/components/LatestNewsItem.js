@@ -13,21 +13,20 @@ export default function LatestNewsItem({
 
   return (
     <div
-      className={cn(
-        'block',
-        'overflow-hidden',
-        'bg-white',
-        'border-like-cyan-light',
-        'border-[1px]',
-        'rounded-[8px]',
-        'transition',
-        'hover:shadow-xl',
-        'hover:scale-[1.05]',
-        'active:scale-[1]',
-        className,
-      )}
-      {...props}
-    >
+  className={cn(
+    'block',
+    'overflow-hidden',
+    'bg-red',
+    'rounded-[8px]',
+    'transition',
+    'hover:shadow-xl',
+    'hover:scale-[1.05]',
+    'active:scale-[1]',
+    className,
+  )}
+  {...props}
+>
+
       <div className="aspect-w-15 aspect-h-8">
         <img
           className="block object-cover w-full h-full"

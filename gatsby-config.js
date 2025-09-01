@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://about.like.co",
-    title: "LikeCoin",
-    titleTemplate: "%s | LikeCoin",
-    description: "Kerja di jepang",
+    title: "Work in Japan",
+    titleTemplate: "%s | Work in Japan",
+    description: "Work in Japan",
     image: "/og.png",
     twitterUsername: "@likecoin",
     themeColor: "#28646e",
@@ -13,6 +13,11 @@ module.exports = {
     DEV_SSR: false,
   },
   plugins: [
+    // plugin untuk image
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+
     {
       resolve: "gatsby-plugin-manifest",
       options: {

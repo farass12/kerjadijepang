@@ -15,7 +15,7 @@ export default function AppItem({
 }) {
   return (
     <div
-      className={cn("relative bg-white rounded-[16px] border-[2px] p-[32px] h-full", isOfficial ? "border-like-cyan-light" : "border-shade-gray")}
+      className={cn("relative bg-gray rounded-[16px] border-[2px] p-[32px] h-full", isOfficial ? "border-like-cyan-light" : "border-shade-gray")}
       {...props}
     >
       <img className="w-[64px] h-[64px]" src={image} alt={title} />

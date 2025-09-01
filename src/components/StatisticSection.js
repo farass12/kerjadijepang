@@ -6,7 +6,7 @@ export default function StatisticSection() {
       <div>
         <ul className="mx-auto my-14 w-full lg:max-w-[1024px] xl:max-w-[1440px] min-w-[224px] gap-x-[96px] gap-y-[48px] grid md:grid-cols-2 xl:grid-cols-3 sm:flex-row flex-wrap justify-center">
           <li>
-            <h3 className="text-xl font-bold mb-2">VISI</h3>
+            <h1 className="text-3xl font-bold mb-7">VISI</h1>
             <p>
               Menjadi penyelenggara pendidikan bahasa Jepang unggulan skala
               internasional yang berkontribusi pada pengembangan SDM dan
@@ -14,7 +14,7 @@ export default function StatisticSection() {
             </p>
           </li>
           <li>
-            <h3 className="text-xl font-bold mb-2">MISI</h3>
+            <h1 className="text-3xl font-bold mb-7">MISI</h1>
             <p>
               1. Menggali Potensi bahasa Jepang dan skil unik siswa. <br />
               2. Membimbing siswa di dalam maupun di luar kelas terkait

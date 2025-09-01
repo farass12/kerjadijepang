@@ -13,11 +13,12 @@ function MediaCoverageSection({ className, items, ...props }) {
   return (
     
     <section
+    
       className={cn(
         "flex flex-col items-center mt-[4px]",
         (!items || items.length === 0) && "hidden", // 🔧 auto-hide kalau kosong
         className
-      )}
+      )}                                
       {...props}
     >
       {/* 🔗 Sosial Media (opsional, tinggal aktifkan lagi kalau mau) */}
