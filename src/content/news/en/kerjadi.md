@@ -1,9 +1,9 @@
 ---
 type: news
-title: LikeCoin 2022 Yearly Review
-date: 2023-01-03
-# url: https://blog.like.co/en/likecoin-2022-yearly-review/
-image: /uploads/latest-news/likecoin-2022-review-2.jpg
+title: Peluang Kerja di Jepang
+date: 2025-09-01
+url: /kerja-di-jepang
+image: /uploads/latest-news/jepang.jpg
 ---
 
 Kerja di Jepang: Peluang, Tantangan, dan Tips
