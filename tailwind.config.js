@@ -9,7 +9,7 @@ module.exports = {
       black: '#000',
       gray: '#951b1bff',
       red: '#ffffffff',
-      'like-green': '#ffffffff',
+      'like-green': '#f7f4f4ff',
       'like-cyan': '#50E3C2',
       'like-cyan-light': '#631111ff',
       'like-cyan-vlight': '#731d1dff',
