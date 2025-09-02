@@ -3,7 +3,8 @@ type: news
 title: Peluang Kerja di Jepang
 date: 2025-09-01
 url: /kerjajepang
-image: /uploads/latest-news/artikel2.jpeg
+image: ../../images/artikel1.jpeg
+
 ---
 
 Kerja di Jepang: Peluang, Tantangan, dan Tips

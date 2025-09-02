@@ -13,40 +13,62 @@ module.exports = {
     DEV_SSR: false,
   },
   plugins: [
-    // plugin untuk image
+    // === Optimasi Gambar ===
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
 
+    // === Source Filesystem untuk images ===
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+
+    // === Source Filesystem untuk konten markdown ===
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: "content",
+        path: `${__dirname}/src/content/`,
+      },
+    },
+
+    // === Markdown transformer ===
+    `gatsby-transformer-remark`,
+
+    // === Manifest untuk PWA icon ===
     {
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "src/images/icon.png",
       },
     },
+
+    // === Netlify CMS ===
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
         modulePath: `${__dirname}/src/cms/index.js`,
       },
     },
+
+    // === Google Analytics ===
     {
       resolve: "gatsby-plugin-google-gtag",
       options: {
         trackingIds: ["G-F31CNT7828"],
       },
     },
+
+    // === Plugin tambahan ===
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     "gatsby-transformer-json",
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "content",
-        path: `${__dirname}/src/content/`,
-      },
-    },
-    "gatsby-transformer-remark",
+
+    // === Netlify Headers ===
     {
       resolve: "gatsby-plugin-netlify",
       options: {

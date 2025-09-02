@@ -1,8 +1,10 @@
 import React from "react";
 import { graphql } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 export default function NewsTemplate({ data }) {
   const { frontmatter, html } = data.markdownRemark;
+  const image = getImage(frontmatter.image);
 
   return (
     <article className="max-w-3xl mx-auto py-12 px-4">
@@ -15,9 +17,9 @@ export default function NewsTemplate({ data }) {
       <p className="text-gray-500 text-sm mb-6">{frontmatter.date}</p>
 
       {/* Gambar */}
-      {frontmatter.image && (
-        <img
-          src={frontmatter.image}
+      {image && (
+        <GatsbyImage
+          image={image}
           alt={frontmatter.title}
           className="w-full rounded-lg mb-8"
         />
@@ -39,7 +41,16 @@ export const query = graphql`
       frontmatter {
         title
         date(formatString: "YYYY-MM-DD")
-        image
+        image {
+          childImageSharp {
+            gatsbyImageData(
+              layout: CONSTRAINED
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 800
+            )
+          }
+        }
       }
     }
   }
