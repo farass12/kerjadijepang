@@ -3,7 +3,7 @@ const path = require("path");
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage, createRedirect } = actions;
 
-  // === 1) Redirect lama ===
+  // === Redirect lama (opsional) ===
   createRedirect({
     fromPath: `/in`,
     toPath: `https://like.co/in`,
@@ -11,7 +11,7 @@ exports.createPages = async ({ graphql, actions }) => {
     isPermanent: false,
   });
 
-  // === 2) Generate halaman dari Markdown ===
+  // === Generate halaman dari Markdown ===
   const result = await graphql(`
     {
       allMarkdownRemark(
@@ -36,8 +36,8 @@ exports.createPages = async ({ graphql, actions }) => {
 
   posts.forEach((post) => {
     createPage({
-      path: post.frontmatter.url, // 👈 ambil path dari frontmatter .md
-      component: path.resolve(`./src/templates/newsTemplate.js`), // template artikel
+      path: post.frontmatter.url, // path artikel sesuai url di md
+      component: path.resolve(`./src/templates/newsTemplate.js`), // template
       context: {
         id: post.id,
       },
