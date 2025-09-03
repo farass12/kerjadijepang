@@ -8,6 +8,7 @@ module.exports = {
     twitterUsername: "@likecoin",
     themeColor: "#28646e",
     blogUrl: "https://blog.like.co",
+    keywords: [ "kerja di jepang", "lowongan kerja jepang", "kerja informatika jepang","kerja jepang" ],
   },
   flags: {
     DEV_SSR: false,
@@ -78,4 +79,4 @@ module.exports = {
       },
     },
   ],
-};
+}

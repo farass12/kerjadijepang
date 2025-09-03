@@ -1,6 +1,8 @@
 import * as React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
 
+import SEO from "../components/SEO"   // ✅ tambahkan ini
+
 import HeroVideoMp4 from "../videos/hero.mp4"
 import HeroVideoWebm from "../videos/hero.webm"
 import HeroImage from "../images/hero.png"
@@ -20,7 +22,6 @@ import {
   JEPANG_APP,
   KERJA_JEPANG,
   KERJA_INFORMATIK,
-  
 } from "../text";
 
 import AppGridList from "../components/AppGridList"
@@ -43,14 +44,16 @@ import NFTWidgetSlideshow from "../components/NFTWidgetSlideshow"
 import JoinValidatorSection from "../components/JoinValidatorSection"
 
 const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
-  const communityItems = [
-    'discord',
-    'github',
-    'twitter',
-    'likersocial',
-  ]
+  const communityItems = ['discord', 'github', 'twitter', 'likersocial']
+
   return (
     <Layout className="text-like-cyan-vlight">
+      {/* ✅ Tambahkan SEO di sini */}
+      <SEO
+        title="Kerja di Jepang"
+        description="Lowongan kerja di Jepang, peluang kerja informatika, dan informasi tenaga kerja asing."
+      />
+
       {/* Hero Section */}
       <section>
         <div className="relative flex justify-center">
@@ -68,21 +71,21 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
             <source src={HeroVideoWebm} type="video/webm" />
             <source src={HeroVideoMp4} type="video/mp4" />
           </video>
-          {/* <div className="absolute hidden inset-x-0 bottom-0 h-[25%] md:flex justify-center">
-            <img
-              className="w-[22px] mb-[24px] object-contain"
-              src={ScrollDownHintImage}
-              alt="Scroll Down"
-            />
-          </div> */}
         </div>
-        <div className="relative text-center p-[24px]">
-          <GradientText tag="h1" className="text-[42px] sm:text-[64px] md:text-[80px] leading-tight"></GradientText>
+        {/* <div className="relative text-center p-[24px]">
+          <GradientText
+            tag="h1"
+            className="text-[42px] sm:text-[64px] md:text-[80px] leading-tight"
+          >
+            Work in Japan
+          </GradientText>
           <h2 className="text-[32px] font-bold font-display mt-[24px]">
-            
+            Temukan Lowongan Kerja di Jepang
           </h2>
-        </div>
+        </div> */}
       </section>
+    
+
 
       {/* Sub-Nav Section */}
       <section className="flex flex-col items-center relative mt-[32px] sm:mt-[88px]">

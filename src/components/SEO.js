@@ -17,7 +17,7 @@ import {
   JEPANG_APP,
   KERJA_JEPANG,
   KERJA_INFORMATIK
-} from "../text";
+} from "../text"
 
 const SEO = ({ title, description, image, isArticle }) => {
   const { pathname } = useLocation()
@@ -30,13 +30,16 @@ const SEO = ({ title, description, image, isArticle }) => {
     defaultImage,
     twitterUsername,
     themeColor,
+    keywords, // ✅ keywords dari siteMetadata
   } = site.siteMetadata
+
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
     image: `${url}${image || defaultImage}`,
     url: `${url}${pathname}`,
   }
+
   const websiteData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
@@ -61,116 +64,118 @@ const SEO = ({ title, description, image, isArticle }) => {
       'https://www.facebook.com/Liker.Land',
     ],
   }
+
   const faqData = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: [{
-      '@type': 'Question',
-      name: 'What is LikeCoin?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: LIKECOIN_DESCRIPTION,
-      }
-    },
+    mainEntity: [
       {
-      '@type': 'Question',
-      name: 'What is ISCN metadata registry?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: TENAGA_KERJA,
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'What is ISCN metadata registry?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: ISCN_DESCRIPTION,
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'What is ISCN metadata registry?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: ISCN_DESCRIPTION,
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'What is the relationship between IPFS, Arweave and LikeCoin?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: IPFS_DESCRIPTION,
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'What is LikeCoin NFT module?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: NFT_MODULE_DESCRIPTION,
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'What is LIKE token?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: TOKEN_DESCRIPTION,
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'What is Writing NFT widget?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: WIDGET_DESCRIPTION,
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'What is Writing NFT portal?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: PORTAL_DESCRIPTION,
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'What is Writing NFT WordPress plugin?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: WORDPRESS_PLUGIN_DESCRIPTION,
-      }
-    },   
-     {
-      '@type': 'Question',
-      name: 'What is Writing NFT WordPress plugin?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: JEPANG_APP,
+        '@type': 'Question',
+        name: 'What is LikeCoin?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: LIKECOIN_DESCRIPTION,
+        }
       },
-
-    },
-    {
-      '@type': 'Question',
-      name: 'What is Writing NFT WordPress plugin?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: KERJA_JEPANG,
+      {
+        '@type': 'Question',
+        name: 'What is ISCN metadata registry?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: TENAGA_KERJA,
+        }
       },
-    },
-   {
-      '@type': 'Question',
-      name: 'What is Writing NFT WordPress plugin?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: KERJA_INFORMATIK,
+      {
+        '@type': 'Question',
+        name: 'What is ISCN metadata registry?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: ISCN_DESCRIPTION,
+        }
       },
-      
-    }]
+      {
+        '@type': 'Question',
+        name: 'What is ISCN metadata registry?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: ISCN_DESCRIPTION,
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'What is the relationship between IPFS, Arweave and LikeCoin?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: IPFS_DESCRIPTION,
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'What is LikeCoin NFT module?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: NFT_MODULE_DESCRIPTION,
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'What is LIKE token?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: TOKEN_DESCRIPTION,
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'What is Writing NFT widget?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: WIDGET_DESCRIPTION,
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'What is Writing NFT portal?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: PORTAL_DESCRIPTION,
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'What is Writing NFT WordPress plugin?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: WORDPRESS_PLUGIN_DESCRIPTION,
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'What is Writing NFT WordPress plugin?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: JEPANG_APP,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What is Writing NFT WordPress plugin?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: KERJA_JEPANG,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What is Writing NFT WordPress plugin?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: KERJA_INFORMATIK,
+        },
+      }
+    ]
   }
+
   return (
     <Helmet
       defaultTitle={defaultTitle}
@@ -179,6 +184,19 @@ const SEO = ({ title, description, image, isArticle }) => {
     >
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
+
+       {/* ✅ Tambahkan ini */}
+    {site.siteMetadata.keywords && (
+      <meta
+        name="keywords"
+        content={site.siteMetadata.keywords.join(", ")}
+      />
+    )}
+
+
+      {/* ✅ meta keywords */}
+      {keywords && <meta name="keywords" content={keywords.join(", ")} />}
+
       {themeColor && <meta name="theme-color" content={themeColor} />}
       {seo.url && <meta property="og:url" content={seo.url} />}
       {(isArticle ? true : null) && <meta property="og:type" content="article" />}
@@ -233,6 +251,7 @@ const query = graphql`
         defaultImage: image
         twitterUsername
         themeColor
+        keywords   # ✅ tambahin ini
       }
     }
   }
