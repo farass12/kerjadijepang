@@ -1,14 +1,8 @@
-import React from "react";
-import { Link } from "gatsby";
-import cn from "classnames";
+import React from "react"
+import { Link } from "gatsby"
+import cn from "classnames"
 
-export default function LatestNewsItem({
-  className,
-  title,
-  image,
-  url,
-  date,
-}) {
+export default function LatestNewsItem({ className, title, image, url, date }) {
   return (
     <div
       className={cn(
@@ -18,8 +12,12 @@ export default function LatestNewsItem({
     >
       {/* Gambar */}
       {image && (
-        <Link to={url}>
-          <img src={image} alt={title} className="w-full h-48 object-cover" />
+        <Link to={url} className="block">
+          <img
+            src={image}
+            alt={title}
+            className="w-full h-48 object-cover"
+          />
         </Link>
       )}
 
@@ -34,5 +32,5 @@ export default function LatestNewsItem({
         </Link>
       </div>
     </div>
-  );
+  )
 }

@@ -1,6 +1,21 @@
 const path = require("path");
 
-exports.createPages = async ({ graphql, actions }) => {
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions;
+
+  if (node.internal.type === "MarkdownRemark") {
+    // ambil nama file markdown sebagai slug
+    const slug = `/${path.basename(node.fileAbsolutePath, ".md")}/`;
+
+    createNodeField({
+      node,
+      name: "slug",
+      value: slug,
+    });
+  }
+};
+
+exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage, createRedirect } = actions;
 
   // === Redirect lama (opsional) ===
@@ -11,16 +26,14 @@ exports.createPages = async ({ graphql, actions }) => {
     isPermanent: false,
   });
 
-  // === Generate halaman dari Markdown ===
+  // === Ambil semua news markdown ===
   const result = await graphql(`
     {
-      allMarkdownRemark(
-        filter: { frontmatter: { type: { eq: "news" } } }
-      ) {
+      allMarkdownRemark(filter: { frontmatter: { type: { eq: "news" } } }) {
         nodes {
           id
-          frontmatter {
-            url
+          fields {
+            slug
           }
         }
       }
@@ -28,7 +41,7 @@ exports.createPages = async ({ graphql, actions }) => {
   `);
 
   if (result.errors) {
-    console.error(result.errors);
+    reporter.panicOnBuild("❌ Error saat GraphQL query news", result.errors);
     return;
   }
 
@@ -36,10 +49,10 @@ exports.createPages = async ({ graphql, actions }) => {
 
   posts.forEach((post) => {
     createPage({
-      path: post.frontmatter.url, // path artikel sesuai url di md
-      component: path.resolve(`./src/templates/newsTemplate.js`), // template
+      path: post.fields.slug, // ✅ path pakai slug otomatis
+      component: path.resolve(`./src/templates/newsTemplate.js`),
       context: {
-        id: post.id,
+        id: post.id, // dikirim ke template biar bisa query detail artikel
       },
     });
   });

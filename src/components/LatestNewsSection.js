@@ -1,68 +1,41 @@
-import React from "react";
-import { StaticQuery, graphql } from "gatsby";
-import cn from "classnames";
+import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
+import LatestNewsItem from "./LatestNewsItem"
 
-import LatestNewsItem from "./LatestNewsItem";
-
-function LatestNewsSection({ className, items, ...props }) {
-  return (
-    <section
-      className={cn("flex flex-col items-center mt-[88px]", className)}
-      {...props}
-    >
-      {/* Judul */}
-      <div className="flex items-center">
-        <h2 className="text-[32px] md:text-[45px] text-left leading-tight font-bold text-gray-900">
-          ARTIKEL
-        </h2>
-      </div>
-
-      {/* List Artikel */}
-      <ul className="grid md:grid-cols-2 gap-[32px] mt-[32px]">
-        {items.map(({ title, url, date, image }, i) => (
-          <li key={i} className="max-w-[400px]">
-            <LatestNewsItem
-              className="h-full"
-              title={title}
-              image={image}
-              url={url}
-              date={date}
-            />
-          </li>
-        ))}
-      </ul>
-    </section>
-  );
-}
-
-export default function LatestNewsSectionWithData(props) {
-  return (
-    <StaticQuery
-      query={graphql`
-        query NewsQuery {
-          items: allMarkdownRemark(
-            filter: { frontmatter: { type: { eq: "news" } } }
-            sort: { fields: frontmatter___date, order: DESC }
-          ) {
-            edges {
-              node {
-                frontmatter {
-                  title
-                  date(formatString: "YYYY-MM-DD")
-                  image
-                  url
-                }
-              }
-            }
-          }
+export default function LatestNewsSection() {
+  const data = useStaticQuery(graphql`
+  query {
+    allMarkdownRemark(
+      filter: { frontmatter: { type: { eq: "news" } } }
+      sort: { fields: frontmatter___date, order: DESC }
+    ) {
+      nodes {
+        id
+        frontmatter {
+          title
+          date(formatString: "YYYY-MM-DD")
+          image
         }
-      `}
-      render={(data) => (
-        <LatestNewsSection
-          items={data.items.edges.map(({ node }) => node.frontmatter)}
-          {...props}
-        />
-      )}
-    />
-  );
+        fields {
+          slug
+        }
+        }
+      }
+    }
+  `)
+
+  const items = data.allMarkdownRemark.nodes.map((node) => ({
+    title: node.frontmatter.title,
+    date: node.frontmatter.date,
+    image: node.frontmatter.image,
+    url: node.fields.slug, // ✅ pakai slug
+  }))
+
+  return (
+    <section className="grid gap-6 md:grid-cols-3">
+      {items.map((item, i) => (
+        <LatestNewsItem key={i} {...item} />
+      ))}
+    </section>
+  )
 }

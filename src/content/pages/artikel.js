@@ -1,50 +1,44 @@
 import React from "react"
 
-// Import gambar dari folder src/images
-import artikel1 from "../../images/artikel1.jpeg"
-import artikel2 from "../../images/artikel2.jpeg"
-import artikel3 from "../../images/artikel3.jpeg"
-import artikel4 from "../../images/artikel4.jpeg"
-
 export default function ArtikelPage() {
   const path = typeof window !== "undefined" ? window.location.pathname : ""
 
   const articles = {
     "/kerja-di-jepang": {
       title: "Kerja di Jepang",
-      image: artikel1,
+      image: "/images/artikel1.jpeg", // ✅ ambil dari /static/images/
       date: "2025-08-01",
       content: `
         Kerja di Jepang: Peluang, Tantangan, dan Tips
         Jepang saat ini menghadapi krisis tenaga kerja karena jumlah penduduk menurun dan populasi menua. 
         Banyak sektor seperti manufaktur, konstruksi, perhotelan, hingga kesehatan kekurangan pekerja. 
         Pemerintah Jepang membuka program kerja untuk tenaga asing agar dapat membantu mengisi kebutuhan tersebut.
-      `
+      `,
     },
     "/kerjajepang": {
       title: "Kerja Jepang",
-      image: artikel2,
+      image: "/images/artikel2.jpeg",
       date: "2025-08-05",
       content: `
         Banyak pekerja dari Indonesia sudah bekerja di Jepang, terutama di bidang kesehatan, konstruksi, pertanian, perikanan, restoran, hotel, dan IT.
-      `
+      `,
     },
     "/jepang": {
       title: "Jepang",
-      image: artikel3,
+      image: "/images/artikel1.jpeg",
       date: "2025-08-12",
       content: `
         Jepang adalah salah satu negara dengan budaya kerja disiplin, gaji kompetitif, namun juga biaya hidup tinggi.
-      `
+      `,
     },
     "/japan": {
       title: "Japan",
-      image: artikel4,
+      image: "/images/artikel1.jpeg",
       date: "2025-08-20",
       content: `
         Kesempatan kerja di Jepang bisa menjadi pengalaman berharga dengan keuntungan internasional yang besar.
-      `
-    }
+      `,
+    },
   }
 
   const article = articles[path]
