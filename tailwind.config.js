@@ -7,6 +7,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       black: '#000',
+
       gray: '#951b1bff',
       red: '#ffffffff',
       'like-green': '#f7f4f4ff',
@@ -17,13 +18,12 @@ module.exports = {
       'medium-gray': '#cac7c7ff',
       'shade-gray': '#ffffffff',
       'light-gray': '#8b6b6ff',
-      'airdrop-gold':'#D1AB79',
+      'airdrop-gold': '#D1AB79',
       'like-red-gradient': 'linear-gradient(to bottom, #5e0000ff 0%, #5e0000ff 100%)',
-
     },
     fontFamily: {
-      'display': 'proxima-nova, sans-serif',
-      'body': '"Open Sans", sans-serif',
+      display: 'proxima-nova, sans-serif',
+      body: '"Open Sans", sans-serif',
     },
     extend: {
       keyframes: {
@@ -33,16 +33,17 @@ module.exports = {
         },
       },
       backgroundImage: {
-        // ✅ versi soft (biar video keliatan jelas)
-        'like-red-soft': 'linear-gradient(to bottom, #6e000040 0%, #6e000020 50%, #00000060 100%)',
-
-        // ✅ versi medium (agak gelap di bawah buat teks tetap kontras)
-        'like-red-medium': 'linear-gradient(to bottom, #6e000060 0%, #6e000030 50%, #000000aa 100%)',
-
-        // versi sebelumnya yang pekat (kalau butuh kontras banget)
-        'like-red-strong': 'linear-gradient(to bottom, #6e0000ff 0%, #8b0000cc 50%, #000000ff 100%)',
+        'like-red-soft':
+          'linear-gradient(to bottom, #6e000040 0%, #6e000020 50%, #00000060 100%)',
+        'like-red-medium':
+          'linear-gradient(to bottom, #6e000060 0%, #6e000030 50%, #000000aa 100%)',
+        'like-red-strong':
+          'linear-gradient(to bottom, #6e0000ff 0%, #8b0000cc 50%, #000000ff 100%)',
       },
     },
   },
-  plugins: [aspectRatio],
+  plugins: [
+    aspectRatio,
+    require('@tailwindcss/typography'), // ✅ tambahin plugin typography
+  ],
 }

@@ -4,7 +4,7 @@ export default function StatisticSection() {
   return (
     <section className="relative mt-[88px] px-[48px]">
       <div>
-        <ul className="mx-auto my-14 w-full lg:max-w-[1024px] xl:max-w-[1440px] min-w-[224px] gap-x-[96px] gap-y-[48px] grid md:grid-cols-2 xl:grid-cols-3 sm:flex-row flex-wrap justify-center">
+        <ul className="pt-12 mx-auto my-14 w-full lg:max-w-[1024px] xl:max-w-[1440px] min-w-[224px] gap-x-[96px] gap-y-[48px] grid md:grid-cols-2 xl:grid-cols-3 sm:flex-row flex-wrap justify-center">
           <li>
             <h1 className="text-3xl font-bold mb-7">VISI</h1>
             <p>

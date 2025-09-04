@@ -72,17 +72,6 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
             <source src={HeroVideoMp4} type="video/mp4" />
           </video>
         </div>
-        {/* <div className="relative text-center p-[24px]">
-          <GradientText
-            tag="h1"
-            className="text-[42px] sm:text-[64px] md:text-[80px] leading-tight"
-          >
-            Work in Japan
-          </GradientText>
-          <h2 className="text-[32px] font-bold font-display mt-[24px]">
-            Temukan Lowongan Kerja di Jepang
-          </h2>
-        </div> */}
       </section>
     
 
@@ -99,8 +88,8 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
     <b>DAFTAR SEKARANG!</b>
   </Button>
 
-  <nav className="flex justify-center mt-[24px]">
-    <ul className="grid grid-cols-2 sm:flex flex-wrap gap-x-[8px] gap-y-[16px]">
+  <nav className="flex justify-center mt-[30px]">
+    <ul className="grid grid-cols-2 sm:flex flex-wrap gap-x-[10px] gap-y-[20px]">
       {/* isi menu */}
     </ul>
   </nav>

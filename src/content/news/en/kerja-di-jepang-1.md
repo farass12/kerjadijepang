@@ -1,6 +1,17 @@
+---
+type: news
+title: "Pekerjaan dan Tantangan Kerja di Jepang"
+date: "2025-09-01"
+url: /kerja
+image: "/artikel1.jpeg"
+---
+
+
 # Pekerjaan dan Tantangan Kerja di Jepang
 
 Kalau ngomongin Jepang, kebanyakan orang langsung kebayang anime, sushi, atau teknologi canggih. Tapi di balik itu semua, Jepang sekarang lagi butuh banyak tenaga kerja dari luar negeri, termasuk dari Indonesia. Alasannya sederhana: jumlah penduduk muda mereka semakin sedikit, sementara kebutuhan tenaga kerja makin banyak. Nah, di sinilah kesempatan buat orang asing terbuka.
+
+------
 
 ## Pekerjaan Apa Saja yang Banyak Dibuka?
 
@@ -46,3 +57,7 @@ Tapi justru dari tantangan ini banyak orang jadi lebih kuat dan mandiri.
 
 
 Kerja di Jepang itu bukan cuma soal mencari nafkah, tapi juga pengalaman hidup yang berharga. Kita bisa belajar banyak hal: disiplin, mandiri, sampai cara menghargai waktu. Walaupun penuh tantangan, bekerja di Jepang bisa memberikan dampak besar asalkan dijalani dengan kesiapan mental dan fisik yang baik.
+
+
+
+
