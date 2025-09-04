@@ -6719,7 +6719,7 @@
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-"gatsby@4.25":
+"gatsby@^4.25.9":
   "integrity" "sha512-/0/C4mesu+afcoQ+SCmTJQJrZLS7cUIgqotxPQ61+hhvE/DoU8j6a61qM1jOp1/Bwh+FQBpDXuFxGFAF3yNBig=="
   "resolved" "https://registry.npmjs.org/gatsby/-/gatsby-4.25.9.tgz"
   "version" "4.25.9"

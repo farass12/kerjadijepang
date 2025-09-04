@@ -3,8 +3,7 @@ import { Link, StaticQuery, graphql } from "gatsby"
 
 import SEO from "../components/SEO"   // ✅ tambahkan ini
 
-import HeroVideoMp4 from "../videos/hero.mp4"
-import HeroVideoWebm from "../videos/hero.webm"
+import HeroBackground from "../images/hero.jpg" // ganti ke path file jpg kamu
 import HeroImage from "../images/hero.png"
 import ScrollDownHintImage from "../images/scroll-down-hint.png"
 import { ArrowRight } from "lucide-react"
@@ -56,23 +55,19 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
 
       {/* Hero Section */}
       <section>
-        <div className="relative flex justify-center">
-          <svg className="w-full h-full max-h-screen pointer-events-none" viewBox="0 0 2560 1966" />
-          <video
-            autoPlay
-            playsInline
-            loop
-            muted
-            className="absolute inset-0 top-0 object-contain object-top max-h-screen mx-auto scale-[1.8] translate-y-[40px] sm:translate-y-0"
-            poster={HeroImage}
-            alt="#Depub"
-            style={{ filter: 'brightness(0.9)' }}
-          >
-            <source src={HeroVideoWebm} type="video/webm" />
-            <source src={HeroVideoMp4} type="video/mp4" />
-          </video>
-        </div>
-      </section>
+  <div className="relative flex justify-center">
+    <svg
+      className="w-full h-full max-h-screen pointer-events-none"
+      viewBox="0 0 2560 1966"
+    />
+    <img
+  src={HeroBackground}
+  alt="#Depub"
+  className="absolute inset-0 top-0 object-contain object-top max-h-screen mx-auto scale-[1.8] translate-y-[40px] sm:translate-y-0"
+  style={{ filter: "brightness(0.9)" }}
+/>
+  </div>
+</section>
     
 
 
