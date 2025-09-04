@@ -144,7 +144,7 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
 
   <div className="bg-[#951b1bff] border-red border-red rounded-2xl p-6 text-like-green ">
     <div className="text-4xl mb-4">🌏🤝</div>
-    <h3 className="text-xl font-semibold mb-2">Pekkerja Asing Sangat Penting</h3>
+    <h3 className="text-xl font-semibold mb-2">Pekerja Asing Sangat Penting</h3>
     <p className="text-sm leading-relaxed">
       Pekerja asing di anggap sangat penting bagi ekonomi jepang karena mereka membantu 
       mengisi kekurangan tenaga kerja yang parah karena penuaan dan angka kelahiran yang 
