@@ -3,6 +3,9 @@ import { Link, StaticQuery, graphql } from "gatsby"
 
 import SEO from "../components/SEO"   // ✅ tambahkan ini
 
+
+
+
 import HeroBackground from "../images/hero.jpg" // ganti ke path file jpg kamu
 import HeroImage from "../images/hero.png"
 import ScrollDownHintImage from "../images/scroll-down-hint.png"
@@ -42,6 +45,7 @@ import StatisticSection from "../components/StatisticSection"
 import NFTWidgetSlideshow from "../components/NFTWidgetSlideshow"
 import JoinValidatorSection from "../components/JoinValidatorSection"
 
+
 const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
   const communityItems = ['discord', 'github', 'twitter', 'likersocial']
 
@@ -53,6 +57,8 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
         description="Lowongan kerja di Jepang, peluang kerja informatika, dan informasi tenaga kerja asing."
       />
 
+  
+
       {/* Hero Section */}
       <section>
   <div className="relative flex justify-center">
@@ -63,8 +69,7 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
     <img
   src={HeroBackground}
   alt="#Depub"
-  className="absolute inset-0 top-0 object-contain object-top max-h-screen mx-auto scale-[1.8] translate-y-[40px] sm:translate-y-0"
-  style={{ filter: "brightness(0.9)" }}
+  className="absolute inset-0 top-0 object-contain object-top max-h-screen mx-auto scale-[1.8] translate-y-[40px] sm:translate-y-0"  style={{ filter: "brightness(0.9)" }}
 />
   </div>
 </section>
@@ -91,12 +96,6 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
 </section>
 
       
-
-      {/* Statistic Section */}
-      <StatisticSection />
-
-      {/* LikeCoin chain Section */}
-{/* Writing NFT Section */}
 
 <section className="flex flex-col items-center mt-24 px-6">
   <h2 className="text-4xl font-bold text-center text-white">
@@ -176,7 +175,7 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
     </div>
 
     {/* GRID KANAN - SLIDESHOW */}
-    <div className="flex justify-center lg:justify-end min-h-[400px]">
+    <div className="flex justify-center lg:justify-end min-h-[400px] text-red">
       <div className="w-full max-w-md">
         <NFTWidgetSlideshow items={writingNFTItems} />
       </div>
@@ -240,7 +239,7 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
     </div>
 
 
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 text-like-cyan-vlight text-[20px]">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 text-like-cyan-vlight text-[20px] max-w-4xl mx-auto justify-items-center">
     {/* Kolom kiri */}
     <div className="space-y-10">
       <div>
@@ -301,7 +300,7 @@ const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
   </div>
 
   <p className="mt-[15px] text-like-cyan-vlight text-[15px] text-center">
-    *Biaya pribadi ini tidak diserahkan ke HASHIWA, melainkan digunakan langsung oleh peserta
+    *Biaya pribadi ini tidak diserahkan ke ARETA INFORMATICS COLLEGE, melainkan digunakan langsung oleh peserta
   </p>
 </section>
 
