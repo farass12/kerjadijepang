@@ -50,7 +50,8 @@ module.exports = {
 
     // === Netlify CMS ===
     {
-      resolve: `gatsby-plugin-netlify-cms`,
+      resolve: "gatsby-plugin-decap-cms",
+
       options: {
         modulePath: `${__dirname}/src/cms/index.js`,
       },
