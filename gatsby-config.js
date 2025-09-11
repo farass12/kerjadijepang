@@ -8,7 +8,12 @@ module.exports = {
     twitterUsername: "@likecoin",
     themeColor: "#28646e",
     blogUrl: "https://blog.like.co",
-    keywords: [ "kerja di jepang", "lowongan kerja jepang", "kerja informatika jepang","kerja jepang" ],
+    keywords: [
+      "kerja di jepang",
+      "lowongan kerja jepang",
+      "kerja informatika jepang",
+      "kerja jepang",
+    ],
   },
   flags: {
     DEV_SSR: false,
@@ -50,8 +55,7 @@ module.exports = {
 
     // === Netlify CMS ===
     {
-      resolve: "gatsby-plugin-decap-cms",
-
+      resolve: "gatsby-plugin-netlify-cms",
       options: {
         modulePath: `${__dirname}/src/cms/index.js`,
       },
