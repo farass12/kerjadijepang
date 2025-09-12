@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "private": false,
   "engines": {
-    "node": ">=18"
-  },
+  "node": "20"
+},
+
   "description": "",
   "author": "Ng Wing Tat, David",
   "keywords": ["gatsby"],
