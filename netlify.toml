@@ -1,6 +1,6 @@
 [build]
-  command = "npx npm-force-resolutions && npm install --legacy-peer-deps && npm run build"
+  command = "npm install --legacy-peer-deps && npm run build"
   publish = "public"
 
-[context.production.environment]
-  NODE_VERSION = "20.19.5"
+[build.environment]
+  NODE_VERSION = "20"

@@ -70,7 +70,7 @@ module.exports = {
     },
 
     // === Plugin tambahan ===
-    "gatsby-plugin-react-helmet-async",
+    "gatsby-plugin-react-helmet", // ✅ ganti yang ini
     "gatsby-plugin-sitemap",
     "gatsby-transformer-json",
 
@@ -84,4 +84,4 @@ module.exports = {
       },
     },
   ],
-}
+};
