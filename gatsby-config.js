@@ -33,7 +33,7 @@ module.exports = {
       },
     },
 
-    // === Source Filesystem untuk konten markdown ===
+    // === Source Filesystem untuk konten markdown / JSON ===
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -41,6 +41,9 @@ module.exports = {
         path: `${__dirname}/src/content/`,
       },
     },
+
+    // === JSON transformer ===
+    `gatsby-transformer-json`,
 
     // === Markdown transformer ===
     `gatsby-transformer-remark`,
@@ -53,9 +56,9 @@ module.exports = {
       },
     },
 
-    // === Netlify CMS ===
+    // === Decap CMS ===
     {
-      resolve: "gatsby-plugin-netlify-cms",
+      resolve: "gatsby-plugin-decap-cms",
       options: {
         modulePath: `${__dirname}/src/cms/index.js`,
       },
@@ -69,10 +72,9 @@ module.exports = {
       },
     },
 
-    // === Plugin tambahan ===
-    "gatsby-plugin-react-helmet", // ✅ ganti yang ini
-    "gatsby-plugin-sitemap",
-    "gatsby-transformer-json",
+    // === SEO & React Helmet ===
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
 
     // === Netlify Headers ===
     {
