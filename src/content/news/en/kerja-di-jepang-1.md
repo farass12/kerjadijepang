@@ -7,7 +7,7 @@ image: "/artikel1.jpeg"
 ---
 
 
-### Pekerjaan dan Tantangan Kerja di Jepang
+#### Pekerjaan dan Tantangan Kerja di Jepang
 
 Kalau ngomongin Jepang, kebanyakan orang langsung kebayang anime, sushi, atau teknologi canggih. Tapi di balik itu semua, Jepang sekarang lagi butuh banyak tenaga kerja dari luar negeri, termasuk dari Indonesia. Alasannya sederhana: jumlah penduduk muda mereka semakin sedikit, sementara kebutuhan tenaga kerja makin banyak. Nah, di sinilah kesempatan buat orang asing terbuka.
 
