@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "private": false,
   "engines": {
-  "node": "20"
-},
-
+    "node": "20"
+  },
   "description": "",
   "author": "Ng Wing Tat, David",
   "keywords": ["gatsby"],
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "develop": "gatsby develop",
     "develop:cms": "npx decap-cms-proxy-server",
     "start": "gatsby develop",
@@ -38,7 +38,7 @@
     "gatsby-transformer-json": "^5.14.0",
     "gatsby-transformer-remark": "^5.14.0",
     "gatsby-transformer-sharp": "^5.14.0",
-    "graphql": "^16.8.0",
+    "graphql": "15.10.1",
     "lucide-react": "^0.542.0",
     "netlify-cms-app": "^2.15.72",
     "react": "^18.2.0",
@@ -54,5 +54,8 @@
     "ajv-keywords": "^5.1.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.13"
+  },
+  "resolutions": {
+    "graphql": "15.10.1"
   }
 }
