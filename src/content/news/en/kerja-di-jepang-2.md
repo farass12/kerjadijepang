@@ -3,7 +3,7 @@ type: news
 title: fakta kerja di jepang
 date: 2025-09-01
 url: /jepang
-image: "/artikel2.jpeg"
+image: "/fakta.jpg"
 ---
 
 

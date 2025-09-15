@@ -3,7 +3,7 @@ type: news
 title: Edukasi Budaya di Jepang
 date: 2025-09-01
 url: /waktu
-image: "/artikel3.jpeg"
+image: "/budaya.jpg"
 ---
 
 

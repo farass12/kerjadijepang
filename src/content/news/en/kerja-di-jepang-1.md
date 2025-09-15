@@ -3,7 +3,7 @@ type: news
 title: "Pekerjaan dan Tantangan Kerja di Jepang"
 date: "2025-09-01"
 url: /kerja
-image: "/artikel1.jpeg"
+image: "/tantangan.jpg"
 ---
 
 

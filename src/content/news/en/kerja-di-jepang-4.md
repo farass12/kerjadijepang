@@ -3,7 +3,7 @@ type: news
 title: Bahasa dan Komunikasi di Jepang
 date: 2025-09-01
 url: /artikel4
-image: "/artikel4.jpeg"
+image: "/komunikasi.jpg"
 ---
 
 
