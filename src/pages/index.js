@@ -1,15 +1,17 @@
 import * as React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
 
-import SEO from "../components/SEO"   // ✅ tambahkan ini
+import SEO from "../components/SEO"   // ✅ sudah benar
 
-
-
-
-import HeroBackground from "../images/hero.jpg" // ganti ke path file jpg kamu
+// Gambar hero section
+import HeroBackground from "../images/hero.jpg"
 import HeroImage from "../images/hero.png"
 import ScrollDownHintImage from "../images/scroll-down-hint.png"
+
+// Icon
 import { ArrowRight } from "lucide-react"
+
+// Text constants
 import {
   LIKECOIN_DESCRIPTION,
   TENAGA_KERJA,
@@ -24,12 +26,11 @@ import {
   JEPANG_APP,
   KERJA_JEPANG,
   KERJA_INFORMATIK,
-} from "../text";
+} from "../text"
 
+// Komponen custom
 import AppGridList from "../components/AppGridList"
-import GridListApp from "../components/GridListApp"
 import AppItem from "../components/AppItem"
-import ItemApp from "../components/ItemApp"
 import AwardsPartnersSection from "../components/AwardsPartnersSection"
 import Button from "../components/Button"
 import CommunityLink from "../components/CommunityLink"
@@ -44,7 +45,6 @@ import StatisticSection from "../components/StatisticSection"
 // import SubscribeNewsletterSection from "../components/SubscribeNewsletterSection"
 import NFTWidgetSlideshow from "../components/NFTWidgetSlideshow"
 import JoinValidatorSection from "../components/JoinValidatorSection"
-
 
 const HomePage = ({ apps, writingNFTItems, blogUrl }) => {
   const communityItems = ['discord', 'github', 'twitter', 'likersocial']
