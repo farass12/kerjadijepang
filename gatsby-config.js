@@ -4,7 +4,7 @@ module.exports = {
     title: "Work in Japan",
     titleTemplate: "%s | Work in Japan",
     description: "Work in Japan",
-    image: "/og.png",
+    image: "/icon.jpg",
     twitterUsername: "@likecoin",
     themeColor: "#28646e",
     blogUrl: "https://blog.like.co",
@@ -52,7 +52,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/icon.jpg",
       },
     },
 

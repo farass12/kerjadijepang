@@ -1,4 +1,4 @@
-import CMS from "netlify-cms-app"
+import CMS from "decap-cms-app"
 
 import globalStyles from "!css-loader!postcss-loader!../styles/global.css"
 
