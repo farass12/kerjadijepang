@@ -3,7 +3,7 @@ type: news
 title: "Peluang kerja di bidang Teknologi dan IT di Jepang"
 date: "2025-10-13"
 url: /kerja
-image: "static/peluang IT.png"
+image: "static/peluangit.png"
 ---
 
 
