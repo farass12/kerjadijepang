@@ -1,6 +1,6 @@
 ---
 type: news
-title: "Kesalahan Umum yang Seing Dilakukan Pekerja Asing di Jepang"
+title: "Kesalahan Umum yang Sering Dilakukan Pekerja Asing di Jepang"
 date: "2025-10-20"
 url: /kerja
 image: "/kesalahan-jp.jpg"
