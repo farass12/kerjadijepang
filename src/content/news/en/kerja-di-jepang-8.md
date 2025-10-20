@@ -1,6 +1,6 @@
 ---
 type: news
-title: "Program Magang di Jepang"
+title: "Program Magang (Tokutei Ginou / Ginou Jisshuu) di Jepang"
 date: "2025-10-16"
 url: /kerja
 image: "/GinouJishuu.jpg"

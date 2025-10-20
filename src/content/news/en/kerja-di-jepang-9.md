@@ -1,6 +1,6 @@
 ---
 type: news
-title: "Persiapan kerja di Jepang"
+title: "Hal yang Harus yang Dipersiakan Sebelum Kerja di Jepang"
 date: "2025-10-17"
 url: /kerja
 image: "/persiapan-di-jepang.jpg"
