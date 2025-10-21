@@ -42,7 +42,7 @@ Bahasa jadi faktor penting.
 
 - Di **Korea**, kamu harus bisa dasar bahasa Korea (TOPIK 1-2).
 
-- Di **Taiwan*, bahasa Mandarin dasar cukup membantu, tapi banyak perusahaan yang menerima pekerja dengan kemampuan bahasa inggris atau bantuan penerjemah.
+- Di **Taiwan**, bahasa Mandarin dasar cukup membantu, tapi banyak perusahaan yang menerima pekerja dengan kemampuan bahasa inggris atau bantuan penerjemah.
 
 Kalau kamu suka belajar bahasa baru dan siap adaptasi, Jepang dan Korea bagus. Kalau mau yang lebih ringan, Taiwan lebih mudah diakses.
 
