@@ -16,7 +16,7 @@ Banyak calon pekerja indonesia yang ingin bekerja di luar negeri, tapi sering bi
 
 Secara umum, gaji di Jepang lebih tinggi dibanding Korea dan Taiwan.
 
-- **Jepang:** Rata-rata pekerja magang mendapat gaji sekitar 130.000 - 180.000 yen perbulan 
+- **Jepang:** Rata-rata pekerja magang mendapat gaji sekitar 130.000 - 180.000 yen per bulan.
 
 - **Korea:** Gaji pekerja berkisar 1,8 - 2,2 juta won per bulan.
 
@@ -32,7 +32,7 @@ Namun, biaya hidup di Jepang juga paling tinggi, terutama di kota besar seperti 
 
 - **Taiwan:** Budaya kerja lebih fleksibel dan ramah untuk pekerja, terutama dari Asia Tenggara.
 
-Kalau kamu suka keteraturan dan etika kerja yang rapi, Jepang cocok. Tapi kalau mau suasan kerja lebih ringan, Taiwan bisa jadi pilihan.
+Kalau kamu suka keteraturan dan etika kerja yang rapi, Jepang cocok. Tapi kalau mau suasana kerja lebih ringan, Taiwan bisa jadi pilihan.
 
 #### Bahasa dan Komunikasi
 
@@ -70,6 +70,6 @@ Setiap negara punya kelebihan dan tantangan.
 
 - **Korea** cocok buat yang tahan kerja keras dan ingin gaji tinggi dengan peluang industri besar.
 
-- **Taiwan** cocok buat yang ingin suasan kerja lebih ringan dan ramaha bagi pekerja asing.
+- **Taiwan** cocok buat yang ingin suasana kerja lebih ringan dan ramah bagi pekerja asing.
 
 Apapun pilihanmu, kuncinya adalah **persiapan mantang, kemampuan bahasa, dan mental yang kuat.** Karena sukses di luar negeri bukan hanya soal negara mana yang dipilih, tapi bagaimana kamu beradaptasi dan bekerja dengan sungguh-sungguh.

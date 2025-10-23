@@ -47,7 +47,7 @@ Minimal level JLPT N3 atau N2 biasanya dibutuhkan agar bisa berkumikasi dengan r
 Sertifikat CCNA, CompTIA, atau pengalaman proyek IT menjadi nilai tambah besar.
 
 4. Etos kerja dan kedisiplinan.
-Perusahaan Jepang sangat menghargai karyawwan yang disiplin, tepat waktu, dan memiliki rasas tanggung jawab tinggi.
+Perusahaan Jepang sangat menghargai karyawan yang disiplin, tepat waktu, dan memiliki rasa tanggung jawab tinggi.
 
 #### Keuntungan Bekerja di Bidang IT di Jepang
 

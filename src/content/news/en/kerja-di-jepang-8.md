@@ -24,20 +24,20 @@ Bekerja di Jepang menjadi impian banyak orang, terutama bagi lulusan SMK dan mah
 |------|---------------|---------------|
 | **Tujuan** | Belajar keterampilan | Bekerja professional |
 | **Lama Program** | 3-5 tahun | 5 tahun (bisa diperpanjang) |
-| **Gaji** | Sesuai standar magang | setara pekerja Jepang |
+| **Gaji** | Sesuai standar magang | Setara pekerja Jepang |
 | **Bahasa Jepang** | Minimal N4 | Minimal N3 |
 | **Persyaratan** | Lulusan SMK/SMA | Lulusan + Pengalaman kerja |
 | **Peluang Tetap** | Tidak bisa menetap permanen | Bisa lanjut ke visa kerja jangka panjang |
 
 #### Persyaratan Umum 
 
-Untuk mengikuti program magang atau kerja di Jepang, biasanya peserta harus memenuhi syarta berikut:
+Untuk mengikuti program magang atau kerja di Jepang, biasanya peserta harus memenuhi syarat berikut:
 
 - Usia 18-30 Tahun
 
-- Lulisan SMA/SMK/Sederajat 
+- Lulusan SMA/SMK/Sederajat 
 
--  jasmani dan rohani
+- Jasmani dan rohani
 
 - Tidak memiliki catatan kriminal
 

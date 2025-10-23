@@ -14,7 +14,7 @@ Bekerja di Jepang tidak hanya soal gaji tinggi, tapi juga tentang kemampuan bera
 
 #### Tidak Menguasai Bahasa Jepang dengan Baik
 
-Bahasa adalah kunci utama untuk berkomunikasi. Banyak pekerja asing yang terlalu mengandalkan penerjemah atau teman,padahal di tempat kerja semua instruksi biasanya dalam bahasa Jepang. Akibatnya, bisa terjadi kesalahpahaman saat bekerja. 
+Bahasa adalah kunci utama untuk berkomunikasi. Banyak pekerja asing yang terlalu mengandalkan penerjemah atau teman, padahal di tempat kerja semua instruksi biasanya dalam bahasa Jepang. Akibatnya, bisa terjadi kesalahpahaman saat bekerja. 
 Solusi: Belajarlah bahasa Jepang minimal sampai level N4 atau N3 sebelum berangkat, dan terus tingkatkan kemampuanmu di sana.
 
 #### Tidak Mengerti Budaya Kerja Jepang 
@@ -42,10 +42,10 @@ Tips: Buat rencana keuangan bulanan dan sisihkan sebagian untuk tabungan. Ingat,
 
 #### Kurang Adaptasi dengan Lingkungan dan Makanan
 
-Cuaca Jepang yang ekstrem (musim dingin dan panas) sering membuat pekerja asing sakit karena tidak terbiasa. Selain itu, makanan Jepang seperti sushi, ramen, atau natto mungkin terasa aneh di awal. Cobalah beradaptasi pelan-pelan, cari makanan yang cocok, dan jaga kesahatn dengan cukup tidur dan olahraga ringan.
+Cuaca Jepang yang ekstrem (musim dingin dan panas) sering membuat pekerja asing sakit karena tidak terbiasa. Selain itu, makanan Jepang seperti sushi, ramen, atau natto mungkin terasa aneh di awal. Cobalah beradaptasi pelan-pelan, cari makanan yang cocok, dan jaga kesahatan dengan cukup tidur dan olahraga ringan.
 
 #### Tidak Minta Bantuan Saat Menghadapi Masalah 
 
-Beberapa orang memilih diam saat menghadapi masalah, entah karena malu atau takut dimarahi. Padahal, di Jepang ada banyak lembaga dan oranisasi yang siap membantu pekerja asing. Jika kamu punya kendala di tempat kerja, segera bicarakan dengan pembimbing (kenshuusei) atau pihak lembaga penyalur.
+Beberapa orang memilih diam saat menghadapi masalah, entah karena malu atau takut dimarahi. Padahal, di Jepang ada banyak lembaga dan organisasi yang siap membantu pekerja asing. Jika kamu punya kendala di tempat kerja, segera bicarakan dengan pembimbing (kenshuusei) atau pihak lembaga penyalur.
 
-Kerja di Jepang memang penuh tantangan, tapi semua bisa diatasi kalau kamu mau belajar dan beradaptasi. Hindari kesalahan umu seperti mengabaikan bahasa, aturan, dan budaya kerja. Dengan sikap yang sopan, disiplin, dan terbuka, kamu bukan hanya akan sukses bekerja di Jepang, tapi juga mendapay pengalaman hidup yang berharga.
+Kerja di Jepang memang penuh tantangan, tapi semua bisa diatasi kalau kamu mau belajar dan beradaptasi. Hindari kesalahan umu seperti mengabaikan bahasa, aturan, dan budaya kerja. Dengan sikap yang sopan, disiplin, dan terbuka, kamu bukan hanya akan sukses bekerja di Jepang, tapi juga mendapat pengalaman hidup yang berharga.

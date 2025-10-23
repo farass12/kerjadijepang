@@ -32,7 +32,7 @@ Dokumen-dokumen ini biasanya dicek oleh lembaga pengirim dan perusahaan di Jepan
 
 #### Persiapan Bahasa Jepang 
 
-Kemampuan bahsa Jepang adalah hal wajib. Sebagian besar perusahaan meminta calon pekerja memiliki kemampuan minimal N4 (dasar) atau N3 (menengah). Kalian bisa belahar dengan cara: 
+Kemampuan bahasa Jepang adalah hal wajib. Sebagian besar perusahaan meminta calon pekerja memiliki kemampuan minimal N4 (dasar) atau N3 (menengah). Kalian bisa belajar dengan cara: 
 
 - Mengikuti pelatihan di LPK (lembaga Pelatihan Kerja)
 
