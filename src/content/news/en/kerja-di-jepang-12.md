@@ -24,15 +24,15 @@ Dengan tingkat pengganguran yang rendah (sekitar 2,5%), artinya peluang kerja di
 
 Tidak semua bidang kerja di Jepang punya peluang yang sama. Ada beberapa sektor yang benar-benar membutuhkan tenaga kerja asing dalam jumlah besar:
 
-**- Sektor Perewatan Lansia (Kaigo):** Jepang adalah negara dengan populasi lansia terbanyak di dunia. Pekerjaan di bidang ini seperti perawat dan caregiver sangat dibutuhkan.
+- **Sektor Perewatan Lansia (Kaigo):** Jepang adalah negara dengan populasi lansia terbanyak di dunia. Pekerjaan di bidang ini seperti perawat dan caregiver sangat dibutuhkan.
 
-**- Manufaktur dan Industri:** Pabrik makanan, otomotif, dan komponen elektronik terus membutuhkan tenaga magang dan pekerja terampil.
+- **Manufaktur dan Industri:** Pabrik makanan, otomotif, dan komponen elektronik terus membutuhkan tenaga magang dan pekerja terampil.
 
-**- Konstruksi:** Dengan banyaknya proyek pembangunan infrastruktur dan perumahan, sektor ini tetap stabil dan menarik.
+- **Konstruksi:** Dengan banyaknya proyek pembangunan infrastruktur dan perumahan, sektor ini tetap stabil dan menarik.
 
-**- Pertanian:** Banyak daerah di Jeapng kekurangan tenaga kerja muda di bidang pertanian, sehingga membuka peluang bagi pekerja asing.
+- **Pertanian:** Banyak daerah di Jeapng kekurangan tenaga kerja muda di bidang pertanian, sehingga membuka peluang bagi pekerja asing.
 
-**- Teknologi dan IT:** Walaupun sektor ini lebih menantang, Jepang mulai membuka peluang bagi pekerja asing di bidang teknologi dan digital karena kekurangan ahli lokal.
+- **Teknologi dan IT:** Walaupun sektor ini lebih menantang, Jepang mulai membuka peluang bagi pekerja asing di bidang teknologi dan digital karena kekurangan ahli lokal.
 
 Bagi calon pekerja dari indonesia , sektor-sektor ini masih memberikan oeluang besar di 2025.
 
@@ -40,15 +40,15 @@ Bagi calon pekerja dari indonesia , sektor-sektor ini masih memberikan oeluang b
 
 Walaupun peluang terbuka lebar, kerja di Jepang tetap punya tantangan tersendiri. Beberap hal yang perlu diperhatikan antara lain:
 
-**- Bahasa jepang:** Masih menjadi kendala utama. sebagian besar perusahaan mangharuskan kemampuan bahasa Jepang minimal N4 untuk pekerja magang dan N3 ke atas untuk pekerja terampil.
+- **Bahasa jepang:** Masih menjadi kendala utama. sebagian besar perusahaan mangharuskan kemampuan bahasa Jepang minimal N4 untuk pekerja magang dan N3 ke atas untuk pekerja terampil.
 
-**- Budaya Kerja yang Disiplin:** jepang terkenal dengan etos kerja yang tinggi, tepat waktu, dan perfeksionis. Bagi sebagian orang, adaptasi terhadap budaya kerja ini cukup sulit.
+- **Budaya Kerja yang Disiplin:** jepang terkenal dengan etos kerja yang tinggi, tepat waktu, dan perfeksionis. Bagi sebagian orang, adaptasi terhadap budaya kerja ini cukup sulit.
 
-**- Biaya Hidup yang Tinggi:** Gaji di Jepang memang besar, tapi biaya hidup — terutama di kota besar seperti Tokyo atau Osaka —  juga tinggi. 
+- **Biaya Hidup yang Tinggi:** Gaji di Jepang memang besar, tapi biaya hidup — terutama di kota besar seperti Tokyo atau Osaka —  juga tinggi. 
 
-**- Persaingan Antar Tenaga Asing:** Karena banyak negara lain juga mengirim tenaga kerja ke Jepang, standar penerimaan menjadi semakin ketat.
+- **Persaingan Antar Tenaga Asing:** Karena banyak negara lain juga mengirim tenaga kerja ke Jepang, standar penerimaan menjadi semakin ketat.
 
-**- Peraturan dan Visa:** Setiap program kerja punya aturan yang berbeda. salah sedikit dalam administrasi bisa meunda keberangkatan atau perpanjangan izin kerja.
+- **Peraturan dan Visa:** Setiap program kerja punya aturan yang berbeda. salah sedikit dalam administrasi bisa meunda keberangkatan atau perpanjangan izin kerja.
 
 #### Apakah Masih Menjanjikan untuk Pekerja Indonesia?
 
