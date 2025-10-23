@@ -1,7 +1,7 @@
 ---
 type: news
 title: "Apakah Kerja di Jepang Masih Menjanjikan di Tahun 2025?"
-date: "2025-10-21"
+date: "2025-10-23"
 url: /kerja
 image: "/menjanjikan-2025.jpg"
 ---
