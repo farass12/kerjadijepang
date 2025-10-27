@@ -30,15 +30,15 @@ Tidak semua bidang kerja di Jepang punya peluang yang sama. Ada beberapa sektor 
 
 - **Konstruksi:** Dengan banyaknya proyek pembangunan infrastruktur dan perumahan, sektor ini tetap stabil dan menarik.
 
-- **Pertanian:** Banyak daerah di Jeapng kekurangan tenaga kerja muda di bidang pertanian, sehingga membuka peluang bagi pekerja asing.
+- **Pertanian:** Banyak daerah di Jepang kekurangan tenaga kerja muda di bidang pertanian, sehingga membuka peluang bagi pekerja asing.
 
 - **Teknologi dan IT:** Walaupun sektor ini lebih menantang, Jepang mulai membuka peluang bagi pekerja asing di bidang teknologi dan digital karena kekurangan ahli lokal.
 
-Bagi calon pekerja dari indonesia , sektor-sektor ini masih memberikan oeluang besar di 2025.
+Bagi calon pekerja dari indonesia , sektor-sektor ini masih memberikan peluang besar di 2025.
 
 #### Tantangan yang Masih Harus Dihadapi 
 
-Walaupun peluang terbuka lebar, kerja di Jepang tetap punya tantangan tersendiri. Beberap hal yang perlu diperhatikan antara lain:
+Walaupun peluang terbuka lebar, kerja di Jepang tetap punya tantangan tersendiri. Beberapa hal yang perlu diperhatikan antara lain:
 
 - **Bahasa jepang:** Masih menjadi kendala utama. sebagian besar perusahaan mangharuskan kemampuan bahasa Jepang minimal N4 untuk pekerja magang dan N3 ke atas untuk pekerja terampil.
 
@@ -48,7 +48,7 @@ Walaupun peluang terbuka lebar, kerja di Jepang tetap punya tantangan tersendiri
 
 - **Persaingan Antar Tenaga Asing:** Karena banyak negara lain juga mengirim tenaga kerja ke Jepang, standar penerimaan menjadi semakin ketat.
 
-- **Peraturan dan Visa:** Setiap program kerja punya aturan yang berbeda. salah sedikit dalam administrasi bisa meunda keberangkatan atau perpanjangan izin kerja.
+- **Peraturan dan Visa:** Setiap program kerja punya aturan yang berbeda. salah sedikit dalam administrasi bisa menunda keberangkatan atau perpanjangan izin kerja.
 
 #### Apakah Masih Menjanjikan untuk Pekerja Indonesia?
 
@@ -56,11 +56,11 @@ Jawabannya: **ya, masih sangat menjanjikan**, asalkan kamu punya persiapan yang 
 
 Peluang kerja di Jepang akan selalu ada selama negara itu menghadapi kekurangan tenaga kerja. Pemerintah Jepang sendiri terus berupaya memperbaiki sistem penerimaan pekerja asing agar lebih transparan dan adil.
 
-Namun, kamu tetap harus siap dengan tantangan di lapangan. Mulai dari belajar bahasa Jepang, menyesuaikan diri dengan budaya kerja, hingga mengatur keuangan dengan bijak. Pekerja yang memiliki *skill*, disiplin, dan semagat belajar tinggi pasti bisa sukses di sana.
+Namun, kamu tetap harus siap dengan tantangan di lapangan. Mulai dari belajar bahasa Jepang, menyesuaikan diri dengan budaya kerja, hingga mengatur keuangan dengan bijak. Pekerja yang memiliki *skill*, disiplin, dan semangat belajar tinggi pasti bisa sukses di sana.
 
 
 Kerja di Jepang di tahun 2025 **masih menjanjikan**, terutama di sektor perawatan lansia, manufaktur, dan konstruksi. Namun, kesuksesan tidak datang begitu saja. Dibutuhkan persiapan bahasa, fisik, mental, dan pengetahuan tentang sistem kerja Jepang.
 
 Bagi kamu yang siap bekerja keras dan beradaptasi, Jepang masih menjadi tempat yang penuh peluang. Tapi kalau kamu ingin hasil cepat tanpa usaha belajar dan menyesuaikan diri, mungkin Jepang bukan pilihan yang tepat
 
-Pada akhirnya, keberhasilan kerja di luar negeri bukan ditentukan oleh negara tujuannya, melainka oleh **seberapa siap dan serius kamu menjalani prosesnya.**
+Pada akhirnya, keberhasilan kerja di luar negeri bukan ditentukan oleh negara tujuannya, melainkan oleh **seberapa siap dan serius kamu menjalani prosesnya.**
