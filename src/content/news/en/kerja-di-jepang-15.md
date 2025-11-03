@@ -1,7 +1,7 @@
 ---
 type: news
 title: "Apa Itu Shakai Hoken dan Kenapa Penting untuk Pekerja Asing?"
-date: "2025-10-28"
+date: "2025-11-03"
 url: /kerja
 image: "/shakai-hoken.jpg"
 ---
