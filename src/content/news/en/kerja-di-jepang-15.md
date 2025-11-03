@@ -48,7 +48,7 @@ Contoh: Kalau kamu harus berobat dengan biaya total ¥10,000, kamu hanya perlu m
 - Kamu bisa dapat tunjangan pengangguran (shitsugyo hoken) jika memenuhi syarat.
 - Juga digunakan untuk pelatihan kerja atau bantuan pindah kerja (job change support).
 
-4. **Rosai Hoken (Asuransi kecelakaan Kerja)
+4. **Rosai Hoken (Asuransi kecelakaan Kerja)**
 - Meberikan perlindungan kalu kamu cedera, sakit, atau meninggal akibat pekerjaan.
 - Semua biaya pengobatan ditanggung 100%.
 - Keluarga juga bisa menerima kompensasi jika terjadi kecelakaan fatal di tempat kerja.
