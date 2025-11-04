@@ -16,11 +16,11 @@ Jepang memang terkenal dengan kedisiplinan dan sopan santunnya, tapi di balik it
 #### Suka Mengantre dengan Tertib 
 Di Jepang, antre sudah jadi bagian dari budaya. Di halte bus, stasiun kereta, bahkan di depan kasir minimarket — semua orang berdiri rapi sesuai urutan.
 Tidak ada yang saling serobot atau mendorong, Bahkan kalau kamu terlambat sedikit, mereka akan tetap menghormati urutan kamu.
-Bagi oran Indonesia yang terbiasa "siapa cepat dia dapat", kebiasaan ini sering bikin kagum sekaligus malu sendiri.
+Bagi orang Indonesia yang terbiasa "siapa cepat dia dapat", kebiasaan ini sering bikin kagum sekaligus malu sendiri.
 
 #### Tidak Mengangkat Telepon atau Bicara Keras di Transportasi Umum
 
-Di kereta atau bus Jepang, kamu akan merasakan suasan yang tenang. Orang-orang jarang bicara keras, apalagi menelpon. Mereka menghormati privasi orang lain, karena berbicara keras dianggap menggangu penumpang sekitar. Bagi yang baru pertama kali naik kereta di Jepang, suasananya bisa terasa *terlalu sunyi* — tapi inilah salah satu bentuk sopan santun mereka.
+Di kereta atau bus Jepang, kamu akan merasakan suasana yang tenang. Orang-orang jarang bicara keras, apalagi menelpon. Mereka menghormati privasi orang lain, karena berbicara keras dianggap menggangu penumpang sekitar. Bagi yang baru pertama kali naik kereta di Jepang, suasananya bisa terasa *terlalu sunyi* — tapi inilah salah satu bentuk sopan santun mereka.
 
 #### Membawa Sampah Sendiri (Tidak Ada Tempat Sampah di Jalan)
 
@@ -42,7 +42,7 @@ Kebiasaan ini sering bikin wisatawan atau pekerja baru kaget, tapi juga menunjuk
 #### Makan Tanpa Jalan atau Bicara
 
 Di Jepang, makan sambil berjalan dianggap kurang sopan. Mereka biasanya makan di tempat — baik di restoran, kantin, atau bahkan di convenience store (konbini) yang menyediakan area duduk kecil.
-Selain itu, mereka juga jarang berbicara saat makan, terutama di tempat umum. Tujuannya adalah untuk menghargai makanan dan suasan sekitar.
+Selain itu, mereka juga jarang berbicara saat makan, terutama di tempat umum. Tujuannya adalah untuk menghargai makanan dan suasana sekitar.
 Bagi orang Indonesia yang terbiasa makan sambil ngobrol atau jajan sambil jalan, kebiasaan ini pasti butuh waktu buat dibiasakan.
 
 #### Memberi Salam dan Membungkuk (Ojigi)

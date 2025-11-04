@@ -65,7 +65,7 @@ Biasanya, perusahaan akan otomatis mendaftarkan karyawannya ke sistem ini. Tapi,
 #### Kenapa Shakai Hoken Penting untuk Pekerja Asing?
 
 Ada beberapa alasan kenapa sistem ini *bukan sekadar potongan gaji biasa,* tapi investasi penting untuk keamananmu:
-1. **Kamu tidak perlu  khawatir biaya rumah sakit yang mahal.** Di Jepang biaya medis sangat tinggi — tanpa Shakai Hoken, bisa bikin kantong bolong.
+1. **Kamu tidak perlu khawatir biaya rumah sakit yang mahal.** Di Jepang biaya medis sangat tinggi — tanpa Shakai Hoken, bisa bikin kantong bolong.
 2. **Kamu punya jaminan masa depan (pensiun).** Setelah pulang ke Indonesia, kamu bisa klaim uang iuran (Lump Sum).
 3. **Kamu dilindungi kalau kehilangan pekerjaan.** Ada tunjangan dan program pelatihan kerja dari pemerintah.
 4. **Kamu aman dari risiko kecelakaan kerja.** Semua biaya dan ganti rugi ditanggung penuh oleh asuransi.
