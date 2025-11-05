@@ -48,7 +48,7 @@ Selain hari libur nasional, Jepang juga punya **festival musiman** yang sangat t
 - Orang - orang berkumpul di taman seperti Ueno (Tokyo) atau Maruyama (Kyoto) untuk piknik di bawah pohon sakura.
 - Simbol kebahagiaan, keindahan, dan perubahan musim.
 
-** 2. Hanabi Taikai (Festival Kembang Api) — Juli - Agustus**
+**2. Hanabi Taikai (Festival Kembang Api) — Juli - Agustus**
 - Festival musim panas yang identik dengan kembang api besar di langit malam.
 - Banyak orang memakai yukata (kimono musim panas).
 - Salah satu yang paling terkenal adalah Sumidagawa Fireworks Festival di Tokyo.
