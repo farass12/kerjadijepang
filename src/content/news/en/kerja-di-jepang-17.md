@@ -7,7 +7,6 @@ image: "/festival-hari-libur.jpg"
 ---
 
 
-
 #### Festival dan Hari Libur Nasional yang Harus Kamu Kamu Tahu
 
 Jepang bukan cuma terkenal dengan teknologi dan kedisiplinannya, tapi juga dengan **budaya dan tradisi yang sangat kaya.** Sepanjang tahun, negara ini punya berbagai festival (matsuri) dan hari libur nasional (shukujitsu) yang dirayakan dengan penuh semangat — dari perayaan tradisional kuno sampai festival modern yang meriah.
