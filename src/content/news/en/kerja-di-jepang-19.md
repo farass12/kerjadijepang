@@ -107,9 +107,9 @@ Isi bagian ini kalau kamu punya permintaan khusus (jam kerja, lokasi, shift, dsb
 1. **Gunakan bahasa formal (keigo)** — hindari kalimat kasual.
 2. **Tulisan tangan boleh, tapi harus rapi banget.**
 3. **Foto wajib formal**. Jangan selfie, jangan filter.
-4. **Gunakan tahun Jepang (era Reiwa).
+4. **Gunakan tahun Jepang (era Reiwa).**
 5. **Pastikan tidak ada typo.** HR Jepang sangat memperhatikan detail kecil.
-6. **Kirim dalam amplop ukuran besar (tanpa dilipat).
+6. **Kirim dalam amplop ukuran besar (tanpa dilipat).**
 
 
 Menulis **Rirekisho** bukan cuma soal isi biodata, tapi juga menunjukkan **karakter, keteliian, dan kesungguhan kamu** dalam melamar pekerjaan di Jepang.
