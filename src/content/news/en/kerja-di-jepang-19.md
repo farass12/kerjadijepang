@@ -100,7 +100,7 @@ Contoh:
 5. **Harapan dan Catatan Lain (本人希望記入欄)**
 Isi bagian ini kalau kamu punya permintaan khusus (jam kerja, lokasi, shift, dsb) Kalau tidak ada, tulis: 
 
-> 特になし (*tokuni nashi)
+> 特になし (*tokuni nashi*)
 
 #### Tips Menulis Rirekisho yang Baik 
 
