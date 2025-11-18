@@ -11,7 +11,7 @@ image: "/kota-besar-kecil.jpg"
 #### Biaya Hidup di Kota Besar vs Kota Kecil di Jepang
 
 Sebelum berangkat kerja ke Jepang, salah satu hal penting yang harus kamu pahami adalah **biaya hidup.**
-Banyak orang berpikir kalau gaji di kota besar seperti Tokyo pasti lebih tinggi, tapi ternyata biaya hidupnya juga jauh lebih mahal. Sementara itu, di kota kecil atau daerah pedesaan, gaji bisa sedikit lebih rendah, tapu biaya sewa rumah, transportasi, dan makan jauh lebih terjangkau.
+Banyak orang berpikir kalau gaji di kota besar seperti Tokyo pasti lebih tinggi, tapi ternyata biaya hidupnya juga jauh lebih mahal. Sementara itu, di kota kecil atau daerah pedesaan, gaji bisa sedikit lebih rendah, tapi biaya sewa rumah, transportasi, dan makan jauh lebih terjangkau.
 
 Jadi, penting banget untuk tahu perbandingan biaya hidup antara **kota besar dan kota kecil di Jepang** supaya kamu bisa menyesuaikan gaya hidup dan tabunganmu dengan bijak.
 

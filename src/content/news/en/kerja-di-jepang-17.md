@@ -69,7 +69,7 @@ Selain hari libur nasional, Jepang juga punya **festival musiman** yang sangat t
 
 **6. Hinamatsuri (Doll Festival) — 3 Maret**
 - Hari khusus untuk anak perempuan.
-- Keluarga memnampilkan bonek tradisional dan berdoa untuk keselamatan dan kebahagiaan anak - anak mereka.
+- Keluarga memnampilkan boneka tradisional dan berdoa untuk keselamatan dan kebahagiaan anak - anak mereka.
 
 **7. Tanabata Festival — 7 Juli**
 - berdasarkan legenda bintang Orihime dan Hikoboshi yang hanya bisa bertemu setahun sekali.
@@ -89,6 +89,6 @@ Selain hari libur nasional, Jepang juga punya **festival musiman** yang sangat t
 - Jangan lupa hormati budaya lokal, seperti buang sampah pada tempatnya dan tidak berisik berlebihan.
 
 
-Festival dan hari libur di Jepang bukan sekadar waktu libur biasan — tapi juga cerminan nilai budaya, rasa hormat, dan kebersamaan masyarakat Jepang. Bagi pekerja asing, momen - momen ini bisa jadi kesempatan bagus untuk memahami kehidupan orang Jepang lebih dalam dan menikmati keindahan budaya mereka secara langsung.
+Festival dan hari libur di Jepang bukan sekadar waktu libur biasa — tapi juga cerminan nilai budaya, rasa hormat, dan kebersamaan masyarakat Jepang. Bagi pekerja asing, momen - momen ini bisa jadi kesempatan bagus untuk memahami kehidupan orang Jepang lebih dalam dan menikmati keindahan budaya mereka secara langsung.
 
 Entah kamu kerja di Tokyo, Nagoya, atau Hokkaido — pasti selalu ada waktu dan tempat untuk merasakan semangat perayaan ala Jepang!

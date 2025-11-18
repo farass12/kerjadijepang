@@ -33,11 +33,11 @@ Orang Jepang biasanya makan di tempat — misalnya di bangku taman, food court, 
 
 #### Jangan Buang Sampah Sembarangan 
 
-Ini yang paling penting. Di Jepang, **kebersihan adalah tanggung jawab pribadi.** Kamu bakal jarang banget nemu tempat sampah di jalan, tapi anehnya — jalannya tetap bersih! Itu karena oran Jepang biasa membawa pulang sampahnya sendiri.
+Ini yang paling penting. Di Jepang, **kebersihan adalah tanggung jawab pribadi.** Kamu bakal jarang banget nemu tempat sampah di jalan, tapi anehnya — jalannya tetap bersih! Itu karena orang Jepang biasa membawa pulang sampahnya sendiri.
 
 **Tips:**
 - Simpan sampahmu di tas dulu sampai nemu tempat sampah yang sesuai kategorinya. 
-- Jepang punya sistem pemilahan: *burnanble, non - burnable,* dan *recyclable.*
+- Jepang punya sistem pemilahan: *burnable, non - burnable,* dan *recyclable.*
 
 #### Jangan Memberi Uang dengan Satu Tangan 
  Saat membayar di kasir atau memberi sesuatu pada orang, **selalu gunakan dua tangan.**
@@ -83,7 +83,7 @@ Pelayanan di Jepang sudah termasuk dalam harga, jadi memberi uang ekstra bisa me
 
 #### Jangan Sembarangan Foto Orang
 
-Orang Jepang sangat menghargai privasi. JAdi jangan asal foto orang, apalagi anak kecil, tanpa izin.
+Orang Jepang sangat menghargai privasi. Jadi jangan asal foto orang, apalagi anak kecil, tanpa izin.
 Bahkan di beberapa tempat wisata, ada tanda "No Photography" yang harus kamu patuhi.
 
 **Tips:**
@@ -96,7 +96,7 @@ Orang Jepang sensitif terhadap bau. Parfum yang terlalu kuat atau bau makanan di
 
 **Tips:**
 - Gunakan parfum ringan atau body mist lembut.
-- Hindari makan makanan berbaukuat (seperti durian, bawang, atau petai) sebelum berangkat kerja
+- Hindari makan makanan berbau kuat (seperti durian, bawang, atau petai) sebelum berangkat kerja
 
 #### Jangan Lupa Ucapkan Terima Kasih dan Salam
 

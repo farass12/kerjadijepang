@@ -60,7 +60,7 @@ Hampir semua pekerja di Jepang wajib ikut Shakai Hoken, termasuk pekerja asing y
 - Sudah bekerja lebih dari 2 bulan,
 - Dan terdaftar di perusahaan resmi (bukan freelance).
 
-Biasanya, perusahaan akan otomatis mendaftarkan karyawannya ke sistem ini. Tapi, kamu tetap perlu memastikan namamu sudah terdaftar, karena iuran Shakai Hoken akan dipotong daari gaji setiap bulan.
+Biasanya, perusahaan akan otomatis mendaftarkan karyawannya ke sistem ini. Tapi, kamu tetap perlu memastikan namamu sudah terdaftar, karena iuran Shakai Hoken akan dipotong dari gaji setiap bulan.
 
 #### Kenapa Shakai Hoken Penting untuk Pekerja Asing?
 

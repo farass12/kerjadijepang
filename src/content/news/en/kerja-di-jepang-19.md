@@ -38,7 +38,7 @@ Rirekisho ini menunjukkan:
 
 #### Perbedaan Rirekisho dan Shokumukeirekisho
 
-Selain Rirekisho, biasanya kamu juga perlu menyiapkan **Shokumukeirekisho **(職務経歴書) —** semacam *resume pengalaman kerja*
+Selain Rirekisho, biasanya kamu juga perlu menyiapkan **Shokumukeirekisho** **(職務経歴書) —** semacam *resume pengalaman kerja*
 
 | Jenis Dokumen | Fungsi | Format | 
 |--------------|--------|--------|
@@ -65,7 +65,7 @@ Isi dengan:
 
 2. **Riwayat Pendidikan dan Pekerjaan (学歴・職歴)** 
 Tulis secara kronologis, dimulai dari yang paling lama ke terbaru.
-Gunakn format tahun Jepang (contoh: 令和5年 / Reiwa 5 = 2023)
+Gunakan format tahun Jepang (contoh: 令和5年 / Reiwa 5 = 2023)
 
 Contoh:
 
@@ -95,7 +95,7 @@ HR Jepang akan menilai **motivasi kamu** dari tulisan ini. Gunakan kalimat singk
 
 Contoh:
 
-> 貴社のモノづくりに関心があり、技能実習を通して日本の技術を学びたいと考えております。(*Saya tertarik dengan budaya manufaktur perusahaan Anda dan ingin belajar teknologi Jepang melalui program pelatihan keterampilan.)
+> 貴社のモノづくりに関心があり、技能実習を通して日本の技術を学びたいと考えております。(Saya tertarik dengan budaya manufaktur perusahaan Anda dan ingin belajar teknologi Jepang melalui program pelatihan keterampilan.)
 
 5. **Harapan dan Catatan Lain (本人希望記入欄)**
 Isi bagian ini kalau kamu punya permintaan khusus (jam kerja, lokasi, shift, dsb) Kalau tidak ada, tulis: 
@@ -115,6 +115,6 @@ Isi bagian ini kalau kamu punya permintaan khusus (jam kerja, lokasi, shift, dsb
 Menulis **Rirekisho** bukan cuma soal isi biodata, tapi juga menunjukkan **karakter, keteliian, dan kesungguhan kamu** dalam melamar pekerjaan di Jepang.
 
 Buat orang Jepang, CV yang rapi, sopan, dan lengkap adalah tanda kamu menghargai perusahaan dan serius ingin bekerja.
-Jadi jangan anggap remeh — luangakan waktu buat menulisnya dengan penuh perhatian. 
+Jadi jangan anggap remeh — luangkan waktu buat menulisnya dengan penuh perhatian. 
 
 Kalau kamu sudah bisa bikin Rirekisho dengan baik, selangkah lagi kamu siap bersaing di dunia kerja Jepang!

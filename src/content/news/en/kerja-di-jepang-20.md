@@ -26,10 +26,10 @@ Dalam dunia kerja, *Kaizen* berarti setiap orang — dari level manajer sampai k
 
 #### Asal Usul Kaizen 
 
-Filosofi ini mlai populer setelah Perang Dunia II, saat Jepang bangkit dari kehancuran ekonomi.
+Filosofi ini mulai populer setelah Perang Dunia II, saat Jepang bangkit dari kehancuran ekonomi.
 Perusahaan seperti **Toyota** mengembangkan sistem produksi yang **Toyota Production System (TPS)**, di mana *Kaizen* menjadi salah satu pilar utamanya.
 
-Alih-ali bergantung hanya pada manajer, sistem ini mendorong semua karyawan untuk berpatisipasi dalam menemukan masalah dan mencari solusi. Hasilnya? Efisiensi meningkat, kualitas produk membaik, dan semangat kerja pun tumbuh.
+Alih-ahli bergantung hanya pada manajer, sistem ini mendorong semua karyawan untuk berpatisipasi dalam menemukan masalah dan mencari solusi. Hasilnya? Efisiensi meningkat, kualitas produk membaik, dan semangat kerja pun tumbuh.
 
 #### Prinsip-Prinsip Utama Kaizen
 
@@ -48,7 +48,7 @@ Berikut lima prinsip utama dalam menerapkan *Kaizen:*
 #### Contoh Penerapan Kaizen di Dunia Kerja Jepang
 
 1. **Di Pabrik** 
-Di pabrik Toyota, setiap karyawan punya hak untuk **menekan tombol berhenti (andol)** kalau mereka melihat ada kesalahan kecil di lini produksi. Tujuannya buka untuk menyalahkan, tapi untuk memperbaiki proses sebelum masalah jadi besar.
+Di pabrik Toyota, setiap karyawan punya hak untuk **menekan tombol berhenti (andol)** kalau mereka melihat ada kesalahan kecil di lini produksi. Tujuannya bukan untuk menyalahkan, tapi untuk memperbaiki proses sebelum masalah jadi besar.
 
 2. **Di Kantor** 
 Pegawai kantor di Jepang sering mebuat **"Kaizen proposal"** — ide-ide kecil untuk memperbaiki efisiensi kerja, seperti cara menyusun dokumen lebih cepat atau mengurangi waktu rapat.
@@ -71,7 +71,7 @@ Filosofi *Kaizen* membuat orang Jepang:
 1. Tidak cepat puas dengan hasil yang ada.
 2. Selalu mencari cara agar lebih efisien.'
 3. Menghargai kerja sama dan ide dari semua level pekerja. 
-4. Fokus pada solus, bukan menyalahkan.
+4. Fokus pada solusi, bukan menyalahkan.
 
 Dan karena semua orang punya mental "bagaimana agar lebih baik dari kemarin", negara ini bisa terus tumbuh tanpa kehilangan stabilitas sosial dan etika kerja yang tinggi.
 
@@ -79,6 +79,6 @@ Dan karena semua orang punya mental "bagaimana agar lebih baik dari kemarin", ne
 *Kaizen* bukan sekadar strategi kerja — tapi cara berpikir. Dengan melakukan perbaikan kecil setiap hari, kamu bisa menciptakan perubahan besar dalam hidupmu tanpa terasa berat.
 
 Seperti kata pepatah Jepang: 
->「千里の道も一歩から」*(Senri no michi mo ippo kara) Perjalanan seribu mil dimulai dari satu langkah pertama. 
+>「千里の道も一歩から」(Senri no michi mo ippo kara) Perjalanan seribu mil dimulai dari satu langkah pertama. 
 
 Mulailah hari ini dengan satu perbaikan kecil — dan kamu sudah menerapkan Kaizen.
