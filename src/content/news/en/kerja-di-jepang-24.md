@@ -32,7 +32,7 @@ Bos di Jepang sering menilai bukan hanya kualitas kerja, tetapi juga:
 - apakah kamu bisa menjaga suasana 
 - apakah kamu dianggap menyulitkan atau mempermudah tim
 
-**c. Stres Kerja Bisa Muncul dari Ningen Kankei
+c. **Stres Kerja Bisa Muncul dari Ningen Kankei**
 
 Banyak pekerja Jepang mengaku bahwa alasan mereka berhenti kerja bukan karena gaji, tetapi karena **masalah hubungan kerja** — misalnya senior yang kasar, kolega yang pasif-agresif, atau komunikasi yang tidak cocok.
 
