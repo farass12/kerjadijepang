@@ -40,9 +40,9 @@ Rirekisho ini menunjukkan:
 
 Selain Rirekisho, biasanya kamu juga perlu menyiapkan **Shokumukeirekisho** **(職務経歴書) —** semacam *resume pengalaman kerja*
 
-| Jenis Dokumen | Fungsi | Format | 
+| Jenis Dokumen | Fungsi | Format |
 |--------------|--------|--------|
-| **Rirekisho (履歴書)** | CV standar berisi data diri, pendidikan, dan alasan melamar | Format tetap (baku)|
+| **Rirekisho (履歴書)** | CV standar berisi data diri, pendidikan, dan alasan melamar | Format tetap (baku) |
 | **Shokumukeirekisho (職務経歴書)** | Menjelaskan pengalaman kerja secara detail (mirip resume barat) | Bebas, bisa dibuat di Word atau PDF |
 
 **Singkatnya:** 
