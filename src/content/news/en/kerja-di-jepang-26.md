@@ -82,7 +82,7 @@ Tujuannya bukan memaksa, tapi mendengarkan:
 
 Setiap masukan dicatat.
 
-4. **Revisi ide sesuai masukan yang diterima*8
+4. **Revisi ide sesuai masukan yang diterima**
 
 Setelah berbicara dengan semua pihak, idenya akan disesuaikan supaya:
 
