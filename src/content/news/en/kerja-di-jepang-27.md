@@ -103,7 +103,7 @@ Jangan langsung to the point. Gunakan:
 
 - *“Chotto muzukashii desu…”* (agak sulit)
 
-- **“Kento sasete kudasai.”* (mohon beri waktu untuk mempertimbangkan)
+- *“Kento sasete kudasai.”* (mohon beri waktu untuk mempertimbangkan)
 
 - Sebut alasan objektif, bukan emosional
 
