@@ -1,7 +1,7 @@
 ---
 type: news
 title: "Karoshi: Budaya Kerja Berlebihan di Jepang dan Dampaknya"
-date: "2025-12-01"
+date: "2025-12-02"
 url: /kerja
 image: "/karoshi.jpg"
 ---
