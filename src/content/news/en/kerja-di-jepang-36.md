@@ -179,7 +179,7 @@ Ini menjaga:
 Masak sendiri di Jepang **memang lebih hemat,** tapi **tidak selalu praktis.**
 Sebaliknya, beli makanan jadi **lebih nyaman,** tapi bisa menguras uang kalau dilakukan terus-menerus.
 
-Pilihan paling realistis bukan ekstrem, tapi **fleksibel.**
+Pilihan paling realistis bukan ekstrem, tapi **fleksibel.*
 Masak saat bisa, beli saat capek.
 
 Hidup di Jepang bukan soal sempurna — tapi soal bertahan dengan waras dan cukup uang.
